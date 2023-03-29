@@ -1,0 +1,188 @@
+name: outfitters
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # cupertino_icons: ^0.1.2
+  flutter_icons:
+  page_transition:
+  
+  flutter_swiper:
+  expandable_widget:
+  shared_preferences: any
+  firebase_database:
+  # graphql_flutter: ^3.0.0
+  flutter_spinkit:
+  marquee:
+  path_provider: any
+  intl:
+  fluttertoast:
+  # flutter_facebook_login:
+  flutter_barcode_scanner:
+  share:
+  provider:
+#  flutter_webview_plugin:
+  flutter_html:
+  country_pickers:
+  easy_localization:
+  url_launcher:
+  translator:
+  carousel_slider:
+  firebase_crashlytics:
+  # flutter_local_notifications: ^1.4.4+1
+  photo_view:
+  cached_video_player:
+  auto_size_text:
+  smooth_page_indicator:
+  webview_flutter:
+  flutter_staggered_grid_view: 
+  scroll_to_index:
+  # cloud_functions:
+  package_info:
+  dio:
+  firebase_in_app_messaging:
+  rflutter_alert:
+  persistent_bottom_nav_bar:
+  flutter_svg: ^2.0.0
+#  flutter_local_notifications:
+  connectivity_plus:
+#  firebase_messaging:
+  firebase_core_platform_interface:
+  flutter_launcher_icons:
+  platform:
+  graphql_flutter:
+  cached_network_image:
+  uuid:
+  sqflite:
+  cloud_firestore:
+  firebase_analytics:
+
+
+dependency_overrides:
+
+
+  
+  # uuid:
+
+dev_dependencies:
+  
+  
+
+  flutter_test:
+    sdk: flutter
+
+   
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/images/logo.jpg"
+  image_path_android: "assets/images/logo.jpg"
+  adaptive_icon_background: "assets/images/background.png"
+  adaptive_icon_foreground: "assets/images/foreground.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/scr1.jpg
+   - assets/images/logo.svg
+   - assets/images/intro1.png
+   - assets/images/intro2.png
+   - assets/images/intro3.png
+   - assets/images/bag.svg
+   - assets/images/heart.svg
+   - assets/images/barcode.svg
+   - assets/images/people.svg
+   - assets/images/facebookbg.png
+   - assets/images/fb.svg
+   - assets/jsonfiles/countrydata.json
+   - assets/images/filters.svg
+   - assets/images/contact.svg
+   - assets/images/connection.svg
+   - assets/images/orderplace.svg
+   - assets/images/info.svg
+   - assets/images/earth.svg
+   - assets/images/notification.svg
+   - assets/images/placeholder.jpg
+   - assets/images/EmptyState.svg
+   - assets/images/scans.png
+   - assets/images/map.svg
+   - assets/images/internet.png
+   - locale/i18n_en.json
+   - locale/i18n_es.json
+   - assets/sizecharts/men-size-chart.jpg
+   - assets/sizecharts/women-size-chart.jpg
+   - assets/sizecharts/JuniorsGirlsSize-chart.jpg
+   - assets/sizecharts/JuniorsBoys-size-chart.jpg
+   - assets/sizecharts/ToddlerGirlsSize-chart.jpg
+   - assets/sizecharts/ToddlerBoysSize-chart.jpg
+   - assets/images/whatsapp.svg
+   - assets/images/email.svg
+   - assets/images/sadface.svg
+   - assets/images/home_unactive.svg
+   - assets/images/home_active.svg
+   - assets/images/wishlist_unactive.svg
+   - assets/images/whishlisht_Active.svg
+   - assets/images/mapActive.svg
+   - assets/images/MapUnactive.svg
+   - assets/images/UserActive.svg
+   - assets/images/UserUnactive.svg
+   - assets/images/barcode_active.svg
+   - assets/images/barcode_unactive.svg
+   - assets/images/emptybag.svg
+   - assets/ca/
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: BentonSans
+      fonts:
+        - asset: assets/fonts/BentonSans-Condensed-Bold.otf
+          weight: 700
+        - asset: assets/fonts/BentonSans-Condensed-Medium.otf
+          weight: 500
+        - asset: assets/fonts/BentonSans-Condensed-Regular.otf
+          weight: 400
+        - asset: assets/fonts/BentonSans-Condensed-Light.otf
+          weight: 300
+       
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

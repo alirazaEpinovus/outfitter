@@ -1,0 +1,4165 @@
+{
+  "countryData": [
+    {
+      "name": "Afghanistan",
+      "country_id": "AF",
+      "isStateRequired": false
+    },
+    {
+      "name": "\u00c5land Islands",
+      "country_id": "AX",
+      "isStateRequired": false
+    },
+    {
+      "name": "Albania",
+      "country_id": "AL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Algeria",
+      "country_id": "DZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "American Samoa",
+      "country_id": "AS",
+      "isStateRequired": false
+    },
+    {
+      "name": "Andorra",
+      "country_id": "AD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Angola",
+      "country_id": "AO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Anguilla",
+      "country_id": "AI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Antarctica",
+      "country_id": "AQ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "country_id": "AG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Argentina",
+      "country_id": "AR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Armenia",
+      "country_id": "AM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Aruba",
+      "country_id": "AW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Australia",
+      "country_id": "AU",
+      "isStateRequired": true,
+      "states": [
+        {
+          "id": 374,
+          "id_country": 24,
+          "name": "Australian Capital Territory",
+          "iso_code": "ACT",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 375,
+          "id_country": 24,
+          "name": "New South Wales",
+          "iso_code": "NSW",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 376,
+          "id_country": 24,
+          "name": "Northern Territory",
+          "iso_code": "NT",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 377,
+          "id_country": 24,
+          "name": "Queensland",
+          "iso_code": "QLD",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 378,
+          "id_country": 24,
+          "name": "South Australia",
+          "iso_code": "SA",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 379,
+          "id_country": 24,
+          "name": "Tasmania",
+          "iso_code": "TAS",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 380,
+          "id_country": 24,
+          "name": "Victoria",
+          "iso_code": "VIC",
+          "magento_region_id": 0,
+          "active": 1
+        },
+        {
+          "id": 381,
+          "id_country": 24,
+          "name": "Western Australia",
+          "iso_code": "WA",
+          "magento_region_id": 0,
+          "active": 1
+        }
+      ]
+    },
+    {
+      "name": "Austria",
+      "country_id": "AT",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "BL",
+          "name": "Burgenland",
+          "region_id": "102"
+        },
+        {
+          "code": "KN",
+          "name": "K\u00e4rnten",
+          "region_id": "99"
+        },
+        {
+          "code": "NO",
+          "name": "Nieder\u00f6sterreich",
+          "region_id": "96"
+        },
+        {
+          "code": "OO",
+          "name": "Ober\u00f6sterreich",
+          "region_id": "97"
+        },
+        {
+          "code": "SB",
+          "name": "Salzburg",
+          "region_id": "98"
+        },
+        {
+          "code": "ST",
+          "name": "Steiermark",
+          "region_id": "100"
+        },
+        {
+          "code": "TI",
+          "name": "Tirol",
+          "region_id": "101"
+        },
+        {
+          "code": "VB",
+          "name": "Vorarlberg",
+          "region_id": "103"
+        },
+        {
+          "code": "WI",
+          "name": "Wien",
+          "region_id": "95"
+        }
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "country_id": "AZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bahamas",
+      "country_id": "BS",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bahrain",
+      "country_id": "BH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bangladesh",
+      "country_id": "BD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Barbados",
+      "country_id": "BB",
+      "isStateRequired": false
+    },
+    {
+      "name": "Belarus",
+      "country_id": "BY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Belgium",
+      "country_id": "BE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Belize",
+      "country_id": "BZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Benin",
+      "country_id": "BJ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bermuda",
+      "country_id": "BM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bhutan",
+      "country_id": "BT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bolivia",
+      "country_id": "BO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "country_id": "BA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Botswana",
+      "country_id": "BW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bouvet Island",
+      "country_id": "BV",
+      "isStateRequired": false
+    },
+    {
+      "name": "Brazil",
+      "country_id": "BR",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "AC",
+          "name": "Acre",
+          "region_id": "485"
+        },
+        {
+          "code": "AL",
+          "name": "Alagoas",
+          "region_id": "486"
+        },
+        {
+          "code": "AP",
+          "name": "Amap\u00e1",
+          "region_id": "487"
+        },
+        {
+          "code": "AM",
+          "name": "Amazonas",
+          "region_id": "488"
+        },
+        {
+          "code": "BA",
+          "name": "Bahia",
+          "region_id": "489"
+        },
+        {
+          "code": "CE",
+          "name": "Cear\u00e1",
+          "region_id": "490"
+        },
+        {
+          "code": "DF",
+          "name": "Distrito Federal",
+          "region_id": "511"
+        },
+        {
+          "code": "ES",
+          "name": "Esp\u00edrito Santo",
+          "region_id": "491"
+        },
+        {
+          "code": "GO",
+          "name": "Goi\u00e1s",
+          "region_id": "492"
+        },
+        {
+          "code": "MA",
+          "name": "Maranh\u00e3o",
+          "region_id": "493"
+        },
+        {
+          "code": "MT",
+          "name": "Mato Grosso",
+          "region_id": "494"
+        },
+        {
+          "code": "MS",
+          "name": "Mato Grosso do Sul",
+          "region_id": "495"
+        },
+        {
+          "code": "MG",
+          "name": "Minas Gerais",
+          "region_id": "496"
+        },
+        {
+          "code": "PA",
+          "name": "Par\u00e1",
+          "region_id": "497"
+        },
+        {
+          "code": "PB",
+          "name": "Para\u00edba",
+          "region_id": "498"
+        },
+        {
+          "code": "PR",
+          "name": "Paran\u00e1",
+          "region_id": "499"
+        },
+        {
+          "code": "PE",
+          "name": "Pernambuco",
+          "region_id": "500"
+        },
+        {
+          "code": "PI",
+          "name": "Piau\u00ed",
+          "region_id": "501"
+        },
+        {
+          "code": "RJ",
+          "name": "Rio de Janeiro",
+          "region_id": "502"
+        },
+        {
+          "code": "RN",
+          "name": "Rio Grande do Norte",
+          "region_id": "503"
+        },
+        {
+          "code": "RS",
+          "name": "Rio Grande do Sul",
+          "region_id": "504"
+        },
+        {
+          "code": "RO",
+          "name": "Rond\u00f4nia",
+          "region_id": "505"
+        },
+        {
+          "code": "RR",
+          "name": "Roraima",
+          "region_id": "506"
+        },
+        {
+          "code": "SC",
+          "name": "Santa Catarina",
+          "region_id": "507"
+        },
+        {
+          "code": "SP",
+          "name": "S\u00e3o Paulo",
+          "region_id": "508"
+        },
+        {
+          "code": "SE",
+          "name": "Sergipe",
+          "region_id": "509"
+        },
+        {
+          "code": "TO",
+          "name": "Tocantins",
+          "region_id": "510"
+        }
+      ]
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "country_id": "IO",
+      "isStateRequired": false
+    },
+    {
+      "name": "British Virgin Islands",
+      "country_id": "VG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Brunei",
+      "country_id": "BN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Bulgaria",
+      "country_id": "BG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Burkina Faso",
+      "country_id": "BF",
+      "isStateRequired": false
+    },
+    {
+      "name": "Burundi",
+      "country_id": "BI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Cambodia",
+      "country_id": "KH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Cameroon",
+      "country_id": "CM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Canada",
+      "country_id": "CA",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "AB",
+          "name": "Alberta",
+          "region_id": "66"
+        },
+        {
+          "code": "BC",
+          "name": "British Columbia",
+          "region_id": "67"
+        },
+        {
+          "code": "MB",
+          "name": "Manitoba",
+          "region_id": "68"
+        },
+        {
+          "code": "NB",
+          "name": "New Brunswick",
+          "region_id": "70"
+        },
+        {
+          "code": "NL",
+          "name": "Newfoundland and Labrador",
+          "region_id": "69"
+        },
+        {
+          "code": "NT",
+          "name": "Northwest Territories",
+          "region_id": "72"
+        },
+        {
+          "code": "NS",
+          "name": "Nova Scotia",
+          "region_id": "71"
+        },
+        {
+          "code": "NU",
+          "name": "Nunavut",
+          "region_id": "73"
+        },
+        {
+          "code": "ON",
+          "name": "Ontario",
+          "region_id": "74"
+        },
+        {
+          "code": "PE",
+          "name": "Prince Edward Island",
+          "region_id": "75"
+        },
+        {
+          "code": "QC",
+          "name": "Quebec",
+          "region_id": "76"
+        },
+        {
+          "code": "SK",
+          "name": "Saskatchewan",
+          "region_id": "77"
+        },
+        {
+          "code": "YT",
+          "name": "Yukon Territory",
+          "region_id": "78"
+        }
+      ]
+    },
+    {
+      "name": "Cape Verde",
+      "country_id": "CV",
+      "isStateRequired": false
+    },
+    {
+      "name": "Cayman Islands",
+      "country_id": "KY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Central African Republic",
+      "country_id": "CF",
+      "isStateRequired": false
+    },
+    {
+      "name": "Chad",
+      "country_id": "TD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Chile",
+      "country_id": "CL",
+      "isStateRequired": false
+    },
+    {
+      "name": "China",
+      "country_id": "CN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Christmas Island",
+      "country_id": "CX",
+      "isStateRequired": false
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "country_id": "CC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Colombia",
+      "country_id": "CO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Comoros",
+      "country_id": "KM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Congo - Brazzaville",
+      "country_id": "CG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Congo - Kinshasa",
+      "country_id": "CD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Cook Islands",
+      "country_id": "CK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Costa Rica",
+      "country_id": "CR",
+      "isStateRequired": false
+    },
+    {
+      "name": "C\u00f4te d\u2019Ivoire",
+      "country_id": "CI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Croatia",
+      "country_id": "HR",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "HR-07",
+          "name": "Bjelovarsko-bilogorska \u017eupanija",
+          "region_id": "518"
+        },
+        {
+          "code": "HR-12",
+          "name": "Brodsko-posavska \u017eupanija",
+          "region_id": "523"
+        },
+        {
+          "code": "HR-19",
+          "name": "Dubrova\u010dko-neretvanska \u017eupanija",
+          "region_id": "530"
+        },
+        {
+          "code": "HR-21",
+          "name": "Grad Zagreb",
+          "region_id": "532"
+        },
+        {
+          "code": "HR-18",
+          "name": "Istarska \u017eupanija",
+          "region_id": "529"
+        },
+        {
+          "code": "HR-04",
+          "name": "Karlova\u010dka \u017eupanija",
+          "region_id": "515"
+        },
+        {
+          "code": "HR-06",
+          "name": "Koprivni\u010dko-kri\u017eeva\u010dka \u017eupanija",
+          "region_id": "517"
+        },
+        {
+          "code": "HR-02",
+          "name": "Krapinsko-zagorska \u017eupanija",
+          "region_id": "513"
+        },
+        {
+          "code": "HR-09",
+          "name": "Li\u010dko-senjska \u017eupanija",
+          "region_id": "520"
+        },
+        {
+          "code": "HR-20",
+          "name": "Me\u0111imurska \u017eupanija",
+          "region_id": "531"
+        },
+        {
+          "code": "HR-14",
+          "name": "Osje\u010dko-baranjska \u017eupanija",
+          "region_id": "525"
+        },
+        {
+          "code": "HR-11",
+          "name": "Po\u017ee\u0161ko-slavonska \u017eupanija",
+          "region_id": "522"
+        },
+        {
+          "code": "HR-08",
+          "name": "Primorsko-goranska \u017eupanija",
+          "region_id": "519"
+        },
+        {
+          "code": "HR-15",
+          "name": "\u0160ibensko-kninska \u017eupanija",
+          "region_id": "526"
+        },
+        {
+          "code": "HR-03",
+          "name": "Sisa\u010dko-moslava\u010dka \u017eupanija",
+          "region_id": "514"
+        },
+        {
+          "code": "HR-17",
+          "name": "Splitsko-dalmatinska \u017eupanija",
+          "region_id": "528"
+        },
+        {
+          "code": "HR-05",
+          "name": "Vara\u017edinska \u017eupanija",
+          "region_id": "516"
+        },
+        {
+          "code": "HR-10",
+          "name": "Viroviti\u010dko-podravska \u017eupanija",
+          "region_id": "521"
+        },
+        {
+          "code": "HR-16",
+          "name": "Vukovarsko-srijemska\u017eupanija",
+          "region_id": "527"
+        },
+        {
+          "code": "HR-13",
+          "name": "Zadarska \u017eupanija",
+          "region_id": "524"
+        },
+        {
+          "code": "HR-01",
+          "name": "Zagreba\u010dka \u017eupanija",
+          "region_id": "512"
+        }
+      ]
+    },
+    {
+      "name": "Cuba",
+      "country_id": "CU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Cyprus",
+      "country_id": "CY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Czech Republic",
+      "country_id": "CZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Denmark",
+      "country_id": "DK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Djibouti",
+      "country_id": "DJ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Dominica",
+      "country_id": "DM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Dominican Republic",
+      "country_id": "DO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Ecuador",
+      "country_id": "EC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Egypt",
+      "country_id": "EG",
+      "isStateRequired": false
+    },
+    {
+      "name": "El Salvador",
+      "country_id": "SV",
+      "isStateRequired": false
+    },
+    {
+      "name": "Equatorial Guinea",
+      "country_id": "GQ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Eritrea",
+      "country_id": "ER",
+      "isStateRequired": false
+    },
+    {
+      "name": "Estonia",
+      "country_id": "EE",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "EE-37",
+          "name": "Harjumaa",
+          "region_id": "340"
+        },
+        {
+          "code": "EE-39",
+          "name": "Hiiumaa",
+          "region_id": "341"
+        },
+        {
+          "code": "EE-44",
+          "name": "Ida-Virumaa",
+          "region_id": "342"
+        },
+        {
+          "code": "EE-51",
+          "name": "J\u00e4rvamaa",
+          "region_id": "344"
+        },
+        {
+          "code": "EE-49",
+          "name": "J\u00f5gevamaa",
+          "region_id": "343"
+        },
+        {
+          "code": "EE-59",
+          "name": "L\u00e4\u00e4ne-Virumaa",
+          "region_id": "346"
+        },
+        {
+          "code": "EE-57",
+          "name": "L\u00e4\u00e4nemaa",
+          "region_id": "345"
+        },
+        {
+          "code": "EE-67",
+          "name": "P\u00e4rnumaa",
+          "region_id": "348"
+        },
+        {
+          "code": "EE-65",
+          "name": "P\u00f5lvamaa",
+          "region_id": "347"
+        },
+        {
+          "code": "EE-70",
+          "name": "Raplamaa",
+          "region_id": "349"
+        },
+        {
+          "code": "EE-74",
+          "name": "Saaremaa",
+          "region_id": "350"
+        },
+        {
+          "code": "EE-78",
+          "name": "Tartumaa",
+          "region_id": "351"
+        },
+        {
+          "code": "EE-82",
+          "name": "Valgamaa",
+          "region_id": "352"
+        },
+        {
+          "code": "EE-84",
+          "name": "Viljandimaa",
+          "region_id": "353"
+        },
+        {
+          "code": "EE-86",
+          "name": "V\u00f5rumaa",
+          "region_id": "354"
+        }
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "country_id": "ET",
+      "isStateRequired": false
+    },
+    {
+      "name": "Falkland Islands",
+      "country_id": "FK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Faroe Islands",
+      "country_id": "FO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Fiji",
+      "country_id": "FJ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Finland",
+      "country_id": "FI",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "Ahvenanmaa",
+          "name": "Ahvenanmaa",
+          "region_id": "339"
+        },
+        {
+          "code": "Etel\u00e4-Karjala",
+          "name": "Etel\u00e4-Karjala",
+          "region_id": "333"
+        },
+        {
+          "code": "Etel\u00e4-Pohjanmaa",
+          "name": "Etel\u00e4-Pohjanmaa",
+          "region_id": "326"
+        },
+        {
+          "code": "Etel\u00e4-Savo",
+          "name": "Etel\u00e4-Savo",
+          "region_id": "325"
+        },
+        {
+          "code": "It\u00e4-Uusimaa",
+          "name": "It\u00e4-Uusimaa",
+          "region_id": "337"
+        },
+        {
+          "code": "Kainuu",
+          "name": "Kainuu",
+          "region_id": "322"
+        },
+        {
+          "code": "Kanta-H\u00e4me",
+          "name": "Kanta-H\u00e4me",
+          "region_id": "335"
+        },
+        {
+          "code": "Keski-Pohjanmaa",
+          "name": "Keski-Pohjanmaa",
+          "region_id": "330"
+        },
+        {
+          "code": "Keski-Suomi",
+          "name": "Keski-Suomi",
+          "region_id": "331"
+        },
+        {
+          "code": "Kymenlaakso",
+          "name": "Kymenlaakso",
+          "region_id": "338"
+        },
+        {
+          "code": "Lappi",
+          "name": "Lappi",
+          "region_id": "320"
+        },
+        {
+          "code": "P\u00e4ij\u00e4t-H\u00e4me",
+          "name": "P\u00e4ij\u00e4t-H\u00e4me",
+          "region_id": "334"
+        },
+        {
+          "code": "Pirkanmaa",
+          "name": "Pirkanmaa",
+          "region_id": "328"
+        },
+        {
+          "code": "Pohjanmaa",
+          "name": "Pohjanmaa",
+          "region_id": "327"
+        },
+        {
+          "code": "Pohjois-Karjala",
+          "name": "Pohjois-Karjala",
+          "region_id": "323"
+        },
+        {
+          "code": "Pohjois-Pohjanmaa",
+          "name": "Pohjois-Pohjanmaa",
+          "region_id": "321"
+        },
+        {
+          "code": "Pohjois-Savo",
+          "name": "Pohjois-Savo",
+          "region_id": "324"
+        },
+        {
+          "code": "Satakunta",
+          "name": "Satakunta",
+          "region_id": "329"
+        },
+        {
+          "code": "Uusimaa",
+          "name": "Uusimaa",
+          "region_id": "336"
+        },
+        {
+          "code": "Varsinais-Suomi",
+          "name": "Varsinais-Suomi",
+          "region_id": "332"
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "country_id": "FR",
+      "isStateRequired": false,
+      "states": [
+        {
+          "code": "1",
+          "name": "Ain",
+          "region_id": "182"
+        },
+        {
+          "code": "2",
+          "name": "Aisne",
+          "region_id": "183"
+        },
+        {
+          "code": "3",
+          "name": "Allier",
+          "region_id": "184"
+        },
+        {
+          "code": "4",
+          "name": "Alpes-de-Haute-Provence",
+          "region_id": "185"
+        },
+        {
+          "code": "6",
+          "name": "Alpes-Maritimes",
+          "region_id": "187"
+        },
+        {
+          "code": "7",
+          "name": "Ard\u00e8che",
+          "region_id": "188"
+        },
+        {
+          "code": "8",
+          "name": "Ardennes",
+          "region_id": "189"
+        },
+        {
+          "code": "9",
+          "name": "Ari\u00e8ge",
+          "region_id": "190"
+        },
+        {
+          "code": "10",
+          "name": "Aube",
+          "region_id": "191"
+        },
+        {
+          "code": "11",
+          "name": "Aude",
+          "region_id": "192"
+        },
+        {
+          "code": "12",
+          "name": "Aveyron",
+          "region_id": "193"
+        },
+        {
+          "code": "67",
+          "name": "Bas-Rhin",
+          "region_id": "249"
+        },
+        {
+          "code": "13",
+          "name": "Bouches-du-Rh\u00f4ne",
+          "region_id": "194"
+        },
+        {
+          "code": "14",
+          "name": "Calvados",
+          "region_id": "195"
+        },
+        {
+          "code": "15",
+          "name": "Cantal",
+          "region_id": "196"
+        },
+        {
+          "code": "16",
+          "name": "Charente",
+          "region_id": "197"
+        },
+        {
+          "code": "17",
+          "name": "Charente-Maritime",
+          "region_id": "198"
+        },
+        {
+          "code": "18",
+          "name": "Cher",
+          "region_id": "199"
+        },
+        {
+          "code": "19",
+          "name": "Corr\u00e8ze",
+          "region_id": "200"
+        },
+        {
+          "code": "2A",
+          "name": "Corse-du-Sud",
+          "region_id": "201"
+        },
+        {
+          "code": "21",
+          "name": "C\u00f4te-d'Or",
+          "region_id": "203"
+        },
+        {
+          "code": "22",
+          "name": "C\u00f4tes-d'Armor",
+          "region_id": "204"
+        },
+        {
+          "code": "23",
+          "name": "Creuse",
+          "region_id": "205"
+        },
+        {
+          "code": "79",
+          "name": "Deux-S\u00e8vres",
+          "region_id": "261"
+        },
+        {
+          "code": "24",
+          "name": "Dordogne",
+          "region_id": "206"
+        },
+        {
+          "code": "25",
+          "name": "Doubs",
+          "region_id": "207"
+        },
+        {
+          "code": "26",
+          "name": "Dr\u00f4me",
+          "region_id": "208"
+        },
+        {
+          "code": "91",
+          "name": "Essonne",
+          "region_id": "273"
+        },
+        {
+          "code": "27",
+          "name": "Eure",
+          "region_id": "209"
+        },
+        {
+          "code": "28",
+          "name": "Eure-et-Loir",
+          "region_id": "210"
+        },
+        {
+          "code": "29",
+          "name": "Finist\u00e8re",
+          "region_id": "211"
+        },
+        {
+          "code": "30",
+          "name": "Gard",
+          "region_id": "212"
+        },
+        {
+          "code": "32",
+          "name": "Gers",
+          "region_id": "214"
+        },
+        {
+          "code": "33",
+          "name": "Gironde",
+          "region_id": "215"
+        },
+        {
+          "code": "68",
+          "name": "Haut-Rhin",
+          "region_id": "250"
+        },
+        {
+          "code": "2B",
+          "name": "Haute-Corse",
+          "region_id": "202"
+        },
+        {
+          "code": "31",
+          "name": "Haute-Garonne",
+          "region_id": "213"
+        },
+        {
+          "code": "43",
+          "name": "Haute-Loire",
+          "region_id": "225"
+        },
+        {
+          "code": "52",
+          "name": "Haute-Marne",
+          "region_id": "234"
+        },
+        {
+          "code": "70",
+          "name": "Haute-Sa\u00f4ne",
+          "region_id": "252"
+        },
+        {
+          "code": "74",
+          "name": "Haute-Savoie",
+          "region_id": "256"
+        },
+        {
+          "code": "87",
+          "name": "Haute-Vienne",
+          "region_id": "269"
+        },
+        {
+          "code": "5",
+          "name": "Hautes-Alpes",
+          "region_id": "186"
+        },
+        {
+          "code": "65",
+          "name": "Hautes-Pyr\u00e9n\u00e9es",
+          "region_id": "247"
+        },
+        {
+          "code": "92",
+          "name": "Hauts-de-Seine",
+          "region_id": "274"
+        },
+        {
+          "code": "34",
+          "name": "H\u00e9rault",
+          "region_id": "216"
+        },
+        {
+          "code": "35",
+          "name": "Ille-et-Vilaine",
+          "region_id": "217"
+        },
+        {
+          "code": "36",
+          "name": "Indre",
+          "region_id": "218"
+        },
+        {
+          "code": "37",
+          "name": "Indre-et-Loire",
+          "region_id": "219"
+        },
+        {
+          "code": "38",
+          "name": "Is\u00e8re",
+          "region_id": "220"
+        },
+        {
+          "code": "39",
+          "name": "Jura",
+          "region_id": "221"
+        },
+        {
+          "code": "40",
+          "name": "Landes",
+          "region_id": "222"
+        },
+        {
+          "code": "41",
+          "name": "Loir-et-Cher",
+          "region_id": "223"
+        },
+        {
+          "code": "42",
+          "name": "Loire",
+          "region_id": "224"
+        },
+        {
+          "code": "44",
+          "name": "Loire-Atlantique",
+          "region_id": "226"
+        },
+        {
+          "code": "45",
+          "name": "Loiret",
+          "region_id": "227"
+        },
+        {
+          "code": "46",
+          "name": "Lot",
+          "region_id": "228"
+        },
+        {
+          "code": "47",
+          "name": "Lot-et-Garonne",
+          "region_id": "229"
+        },
+        {
+          "code": "48",
+          "name": "Loz\u00e8re",
+          "region_id": "230"
+        },
+        {
+          "code": "49",
+          "name": "Maine-et-Loire",
+          "region_id": "231"
+        },
+        {
+          "code": "50",
+          "name": "Manche",
+          "region_id": "232"
+        },
+        {
+          "code": "51",
+          "name": "Marne",
+          "region_id": "233"
+        },
+        {
+          "code": "53",
+          "name": "Mayenne",
+          "region_id": "235"
+        },
+        {
+          "code": "54",
+          "name": "Meurthe-et-Moselle",
+          "region_id": "236"
+        },
+        {
+          "code": "55",
+          "name": "Meuse",
+          "region_id": "237"
+        },
+        {
+          "code": "56",
+          "name": "Morbihan",
+          "region_id": "238"
+        },
+        {
+          "code": "57",
+          "name": "Moselle",
+          "region_id": "239"
+        },
+        {
+          "code": "58",
+          "name": "Ni\u00e8vre",
+          "region_id": "240"
+        },
+        {
+          "code": "59",
+          "name": "Nord",
+          "region_id": "241"
+        },
+        {
+          "code": "60",
+          "name": "Oise",
+          "region_id": "242"
+        },
+        {
+          "code": "61",
+          "name": "Orne",
+          "region_id": "243"
+        },
+        {
+          "code": "75",
+          "name": "Paris",
+          "region_id": "257"
+        },
+        {
+          "code": "62",
+          "name": "Pas-de-Calais",
+          "region_id": "244"
+        },
+        {
+          "code": "63",
+          "name": "Puy-de-D\u00f4me",
+          "region_id": "245"
+        },
+        {
+          "code": "64",
+          "name": "Pyr\u00e9n\u00e9es-Atlantiques",
+          "region_id": "246"
+        },
+        {
+          "code": "66",
+          "name": "Pyr\u00e9n\u00e9es-Orientales",
+          "region_id": "248"
+        },
+        {
+          "code": "69",
+          "name": "Rh\u00f4ne",
+          "region_id": "251"
+        },
+        {
+          "code": "71",
+          "name": "Sa\u00f4ne-et-Loire",
+          "region_id": "253"
+        },
+        {
+          "code": "72",
+          "name": "Sarthe",
+          "region_id": "254"
+        },
+        {
+          "code": "73",
+          "name": "Savoie",
+          "region_id": "255"
+        },
+        {
+          "code": "77",
+          "name": "Seine-et-Marne",
+          "region_id": "259"
+        },
+        {
+          "code": "76",
+          "name": "Seine-Maritime",
+          "region_id": "258"
+        },
+        {
+          "code": "93",
+          "name": "Seine-Saint-Denis",
+          "region_id": "275"
+        },
+        {
+          "code": "80",
+          "name": "Somme",
+          "region_id": "262"
+        },
+        {
+          "code": "81",
+          "name": "Tarn",
+          "region_id": "263"
+        },
+        {
+          "code": "82",
+          "name": "Tarn-et-Garonne",
+          "region_id": "264"
+        },
+        {
+          "code": "90",
+          "name": "Territoire-de-Belfort",
+          "region_id": "272"
+        },
+        {
+          "code": "95",
+          "name": "Val-d'Oise",
+          "region_id": "277"
+        },
+        {
+          "code": "94",
+          "name": "Val-de-Marne",
+          "region_id": "276"
+        },
+        {
+          "code": "83",
+          "name": "Var",
+          "region_id": "265"
+        },
+        {
+          "code": "84",
+          "name": "Vaucluse",
+          "region_id": "266"
+        },
+        {
+          "code": "85",
+          "name": "Vend\u00e9e",
+          "region_id": "267"
+        },
+        {
+          "code": "86",
+          "name": "Vienne",
+          "region_id": "268"
+        },
+        {
+          "code": "88",
+          "name": "Vosges",
+          "region_id": "270"
+        },
+        {
+          "code": "89",
+          "name": "Yonne",
+          "region_id": "271"
+        },
+        {
+          "code": "78",
+          "name": "Yvelines",
+          "region_id": "260"
+        }
+      ]
+    },
+    {
+      "name": "French Guiana",
+      "country_id": "GF",
+      "isStateRequired": false
+    },
+    {
+      "name": "French Polynesia",
+      "country_id": "PF",
+      "isStateRequired": false
+    },
+    {
+      "name": "French Southern Territories",
+      "country_id": "TF",
+      "isStateRequired": false
+    },
+    {
+      "name": "Gabon",
+      "country_id": "GA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Gambia",
+      "country_id": "GM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Georgia",
+      "country_id": "GE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Germany",
+      "country_id": "DE",
+      "isStateRequired": false,
+      "states": [
+        {
+          "code": "BAW",
+          "name": "Baden-W\u00fcrttemberg",
+          "region_id": "80"
+        },
+        {
+          "code": "BAY",
+          "name": "Bayern",
+          "region_id": "81"
+        },
+        {
+          "code": "BER",
+          "name": "Berlin",
+          "region_id": "82"
+        },
+        {
+          "code": "BRG",
+          "name": "Brandenburg",
+          "region_id": "83"
+        },
+        {
+          "code": "BRE",
+          "name": "Bremen",
+          "region_id": "84"
+        },
+        {
+          "code": "HAM",
+          "name": "Hamburg",
+          "region_id": "85"
+        },
+        {
+          "code": "HES",
+          "name": "Hessen",
+          "region_id": "86"
+        },
+        {
+          "code": "MEC",
+          "name": "Mecklenburg-Vorpommern",
+          "region_id": "87"
+        },
+        {
+          "code": "NDS",
+          "name": "Niedersachsen",
+          "region_id": "79"
+        },
+        {
+          "code": "NRW",
+          "name": "Nordrhein-Westfalen",
+          "region_id": "88"
+        },
+        {
+          "code": "RHE",
+          "name": "Rheinland-Pfalz",
+          "region_id": "89"
+        },
+        {
+          "code": "SAR",
+          "name": "Saarland",
+          "region_id": "90"
+        },
+        {
+          "code": "SAS",
+          "name": "Sachsen",
+          "region_id": "91"
+        },
+        {
+          "code": "SAC",
+          "name": "Sachsen-Anhalt",
+          "region_id": "92"
+        },
+        {
+          "code": "SCN",
+          "name": "Schleswig-Holstein",
+          "region_id": "93"
+        },
+        {
+          "code": "THE",
+          "name": "Th\u00fcringen",
+          "region_id": "94"
+        }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "country_id": "GH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Gibraltar",
+      "country_id": "GI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Greece",
+      "country_id": "GR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Greenland",
+      "country_id": "GL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Grenada",
+      "country_id": "GD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guadeloupe",
+      "country_id": "GP",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guam",
+      "country_id": "GU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guatemala",
+      "country_id": "GT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guernsey",
+      "country_id": "GG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guinea",
+      "country_id": "GN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guinea-Bissau",
+      "country_id": "GW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Guyana",
+      "country_id": "GY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Haiti",
+      "country_id": "HT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Heard & McDonald Islands",
+      "country_id": "HM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Honduras",
+      "country_id": "HN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Hong Kong SAR China",
+      "country_id": "HK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Hungary",
+      "country_id": "HU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Iceland",
+      "country_id": "IS",
+      "isStateRequired": false
+    },
+    {
+      "name": "India",
+      "country_id": "IN",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "AN",
+          "name": "Andaman and Nicobar Islands",
+          "region_id": "533"
+        },
+        {
+          "code": "AP",
+          "name": "Andhra Pradesh",
+          "region_id": "534"
+        },
+        {
+          "code": "AR",
+          "name": "Arunachal Pradesh",
+          "region_id": "535"
+        },
+        {
+          "code": "AS",
+          "name": "Assam",
+          "region_id": "536"
+        },
+        {
+          "code": "BR",
+          "name": "Bihar",
+          "region_id": "537"
+        },
+        {
+          "code": "CH",
+          "name": "Chandigarh",
+          "region_id": "538"
+        },
+        {
+          "code": "CT",
+          "name": "Chhattisgarh",
+          "region_id": "539"
+        },
+        {
+          "code": "DN",
+          "name": "Dadra and Nagar Haveli",
+          "region_id": "540"
+        },
+        {
+          "code": "DD",
+          "name": "Daman and Diu",
+          "region_id": "541"
+        },
+        {
+          "code": "DL",
+          "name": "Delhi",
+          "region_id": "542"
+        },
+        {
+          "code": "GA",
+          "name": "Goa",
+          "region_id": "543"
+        },
+        {
+          "code": "GJ",
+          "name": "Gujarat",
+          "region_id": "544"
+        },
+        {
+          "code": "HR",
+          "name": "Haryana",
+          "region_id": "545"
+        },
+        {
+          "code": "HP",
+          "name": "Himachal Pradesh",
+          "region_id": "546"
+        },
+        {
+          "code": "JK",
+          "name": "Jammu and Kashmir",
+          "region_id": "547"
+        },
+        {
+          "code": "JH",
+          "name": "Jharkhand",
+          "region_id": "548"
+        },
+        {
+          "code": "KA",
+          "name": "Karnataka",
+          "region_id": "549"
+        },
+        {
+          "code": "KL",
+          "name": "Kerala",
+          "region_id": "550"
+        },
+        {
+          "code": "LD",
+          "name": "Lakshadweep",
+          "region_id": "551"
+        },
+        {
+          "code": "MP",
+          "name": "Madhya Pradesh",
+          "region_id": "552"
+        },
+        {
+          "code": "MH",
+          "name": "Maharashtra",
+          "region_id": "553"
+        },
+        {
+          "code": "MN",
+          "name": "Manipur",
+          "region_id": "554"
+        },
+        {
+          "code": "ML",
+          "name": "Meghalaya",
+          "region_id": "555"
+        },
+        {
+          "code": "MZ",
+          "name": "Mizoram",
+          "region_id": "556"
+        },
+        {
+          "code": "NL",
+          "name": "Nagaland",
+          "region_id": "557"
+        },
+        {
+          "code": "OR",
+          "name": "Odisha",
+          "region_id": "558"
+        },
+        {
+          "code": "PY",
+          "name": "Puducherry",
+          "region_id": "559"
+        },
+        {
+          "code": "PB",
+          "name": "Punjab",
+          "region_id": "560"
+        },
+        {
+          "code": "RJ",
+          "name": "Rajasthan",
+          "region_id": "561"
+        },
+        {
+          "code": "SK",
+          "name": "Sikkim",
+          "region_id": "562"
+        },
+        {
+          "code": "TN",
+          "name": "Tamil Nadu",
+          "region_id": "563"
+        },
+        {
+          "code": "TG",
+          "name": "Telangana",
+          "region_id": "564"
+        },
+        {
+          "code": "TR",
+          "name": "Tripura",
+          "region_id": "565"
+        },
+        {
+          "code": "UP",
+          "name": "Uttar Pradesh",
+          "region_id": "566"
+        },
+        {
+          "code": "UT",
+          "name": "Uttarakhand",
+          "region_id": "567"
+        },
+        {
+          "code": "WB",
+          "name": "West Bengal",
+          "region_id": "568"
+        }
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "country_id": "ID",
+      "isStateRequired": false
+    },
+    {
+      "name": "Iran",
+      "country_id": "IR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Iraq",
+      "country_id": "IQ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Ireland",
+      "country_id": "IE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Isle of Man",
+      "country_id": "IM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Israel",
+      "country_id": "IL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Italy",
+      "country_id": "IT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Jamaica",
+      "country_id": "JM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Japan",
+      "country_id": "JP",
+      "isStateRequired": false
+    },
+    {
+      "name": "Jersey",
+      "country_id": "JE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Jordan",
+      "country_id": "JO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Kazakhstan",
+      "country_id": "KZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Kenya",
+      "country_id": "KE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Kiribati",
+      "country_id": "KI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Kuwait",
+      "country_id": "KW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Kyrgyzstan",
+      "country_id": "KG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Laos",
+      "country_id": "LA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Latvia",
+      "country_id": "LV",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "\u0100da\u017eu novads",
+          "name": "\u0100da\u017eu novads",
+          "region_id": "471"
+        },
+        {
+          "code": "Aglonas novads",
+          "name": "Aglonas novads",
+          "region_id": "366"
+        },
+        {
+          "code": "LV-AI",
+          "name": "Aizkraukles novads",
+          "region_id": "367"
+        },
+        {
+          "code": "Aizputes novads",
+          "name": "Aizputes novads",
+          "region_id": "368"
+        },
+        {
+          "code": "Akn\u012bstes novads",
+          "name": "Akn\u012bstes novads",
+          "region_id": "369"
+        },
+        {
+          "code": "Alojas novads",
+          "name": "Alojas novads",
+          "region_id": "370"
+        },
+        {
+          "code": "Alsungas novads",
+          "name": "Alsungas novads",
+          "region_id": "371"
+        },
+        {
+          "code": "LV-AL",
+          "name": "Al\u016bksnes novads",
+          "region_id": "372"
+        },
+        {
+          "code": "Amatas novads",
+          "name": "Amatas novads",
+          "region_id": "373"
+        },
+        {
+          "code": "Apes novads",
+          "name": "Apes novads",
+          "region_id": "374"
+        },
+        {
+          "code": "Auces novads",
+          "name": "Auces novads",
+          "region_id": "375"
+        },
+        {
+          "code": "Bab\u012btes novads",
+          "name": "Bab\u012btes novads",
+          "region_id": "376"
+        },
+        {
+          "code": "Baldones novads",
+          "name": "Baldones novads",
+          "region_id": "377"
+        },
+        {
+          "code": "Baltinavas novads",
+          "name": "Baltinavas novads",
+          "region_id": "378"
+        },
+        {
+          "code": "LV-BL",
+          "name": "Balvu novads",
+          "region_id": "379"
+        },
+        {
+          "code": "LV-BU",
+          "name": "Bauskas novads",
+          "region_id": "380"
+        },
+        {
+          "code": "Bever\u012bnas novads",
+          "name": "Bever\u012bnas novads",
+          "region_id": "381"
+        },
+        {
+          "code": "Broc\u0113nu novads",
+          "name": "Broc\u0113nu novads",
+          "region_id": "382"
+        },
+        {
+          "code": "Burtnieku novads",
+          "name": "Burtnieku novads",
+          "region_id": "383"
+        },
+        {
+          "code": "Carnikavas novads",
+          "name": "Carnikavas novads",
+          "region_id": "384"
+        },
+        {
+          "code": "LV-CE",
+          "name": "C\u0113su novads",
+          "region_id": "387"
+        },
+        {
+          "code": "Cesvaines novads",
+          "name": "Cesvaines novads",
+          "region_id": "385"
+        },
+        {
+          "code": "Ciblas novads",
+          "name": "Ciblas novads",
+          "region_id": "386"
+        },
+        {
+          "code": "Dagdas novads",
+          "name": "Dagdas novads",
+          "region_id": "388"
+        },
+        {
+          "code": "LV-DGV",
+          "name": "Daugavpils",
+          "region_id": "355"
+        },
+        {
+          "code": "LV-DA",
+          "name": "Daugavpils novads",
+          "region_id": "389"
+        },
+        {
+          "code": "LV-DO",
+          "name": "Dobeles novads",
+          "region_id": "390"
+        },
+        {
+          "code": "Dundagas novads",
+          "name": "Dundagas novads",
+          "region_id": "391"
+        },
+        {
+          "code": "Durbes novads",
+          "name": "Durbes novads",
+          "region_id": "392"
+        },
+        {
+          "code": "Engures novads",
+          "name": "Engures novads",
+          "region_id": "393"
+        },
+        {
+          "code": "\u0112rg\u013cu novads",
+          "name": "\u0112rg\u013cu novads",
+          "region_id": "472"
+        },
+        {
+          "code": "Garkalnes novads",
+          "name": "Garkalnes novads",
+          "region_id": "394"
+        },
+        {
+          "code": "Grobi\u0146as novads",
+          "name": "Grobi\u0146as novads",
+          "region_id": "395"
+        },
+        {
+          "code": "LV-GU",
+          "name": "Gulbenes novads",
+          "region_id": "396"
+        },
+        {
+          "code": "Iecavas novads",
+          "name": "Iecavas novads",
+          "region_id": "397"
+        },
+        {
+          "code": "Ik\u0161\u0137iles novads",
+          "name": "Ik\u0161\u0137iles novads",
+          "region_id": "398"
+        },
+        {
+          "code": "Il\u016bkstes novads",
+          "name": "Il\u016bkstes novads",
+          "region_id": "399"
+        },
+        {
+          "code": "In\u010dukalna novads",
+          "name": "In\u010dukalna novads",
+          "region_id": "400"
+        },
+        {
+          "code": "Jaunjelgavas novads",
+          "name": "Jaunjelgavas novads",
+          "region_id": "401"
+        },
+        {
+          "code": "Jaunpiebalgas novads",
+          "name": "Jaunpiebalgas novads",
+          "region_id": "402"
+        },
+        {
+          "code": "Jaunpils novads",
+          "name": "Jaunpils novads",
+          "region_id": "403"
+        },
+        {
+          "code": "J\u0113kabpils",
+          "name": "J\u0113kabpils",
+          "region_id": "357"
+        },
+        {
+          "code": "LV-JK",
+          "name": "J\u0113kabpils novads",
+          "region_id": "405"
+        },
+        {
+          "code": "LV-JEL",
+          "name": "Jelgava",
+          "region_id": "356"
+        },
+        {
+          "code": "LV-JL",
+          "name": "Jelgavas novads",
+          "region_id": "404"
+        },
+        {
+          "code": "LV-JUR",
+          "name": "J\u016brmala",
+          "region_id": "358"
+        },
+        {
+          "code": "Kandavas novads",
+          "name": "Kandavas novads",
+          "region_id": "406"
+        },
+        {
+          "code": "K\u0101rsavas novads",
+          "name": "K\u0101rsavas novads",
+          "region_id": "412"
+        },
+        {
+          "code": "\u0136eguma novads",
+          "name": "\u0136eguma novads",
+          "region_id": "473"
+        },
+        {
+          "code": "\u0136ekavas novads",
+          "name": "\u0136ekavas novads",
+          "region_id": "474"
+        },
+        {
+          "code": "Kokneses novads",
+          "name": "Kokneses novads",
+          "region_id": "407"
+        },
+        {
+          "code": "LV-KR",
+          "name": "Kr\u0101slavas novads",
+          "region_id": "410"
+        },
+        {
+          "code": "Krimuldas novads",
+          "name": "Krimuldas novads",
+          "region_id": "408"
+        },
+        {
+          "code": "Krustpils novads",
+          "name": "Krustpils novads",
+          "region_id": "409"
+        },
+        {
+          "code": "LV-KU",
+          "name": "Kuld\u012bgas novads",
+          "region_id": "411"
+        },
+        {
+          "code": "Lielv\u0101rdes novads",
+          "name": "Lielv\u0101rdes novads",
+          "region_id": "413"
+        },
+        {
+          "code": "LV-LPX",
+          "name": "Liep\u0101ja",
+          "region_id": "359"
+        },
+        {
+          "code": "LV-LE",
+          "name": "Liep\u0101jas novads",
+          "region_id": "360"
+        },
+        {
+          "code": "L\u012bgatnes novads",
+          "name": "L\u012bgatnes novads",
+          "region_id": "417"
+        },
+        {
+          "code": "LV-LM",
+          "name": "Limba\u017eu novads",
+          "region_id": "414"
+        },
+        {
+          "code": "L\u012bv\u0101nu novads",
+          "name": "L\u012bv\u0101nu novads",
+          "region_id": "418"
+        },
+        {
+          "code": "Lub\u0101nas novads",
+          "name": "Lub\u0101nas novads",
+          "region_id": "415"
+        },
+        {
+          "code": "LV-LU",
+          "name": "Ludzas novads",
+          "region_id": "416"
+        },
+        {
+          "code": "LV-MA",
+          "name": "Madonas novads",
+          "region_id": "419"
+        },
+        {
+          "code": "M\u0101lpils novads",
+          "name": "M\u0101lpils novads",
+          "region_id": "421"
+        },
+        {
+          "code": "M\u0101rupes novads",
+          "name": "M\u0101rupes novads",
+          "region_id": "422"
+        },
+        {
+          "code": "Mazsalacas novads",
+          "name": "Mazsalacas novads",
+          "region_id": "420"
+        },
+        {
+          "code": "Nauk\u0161\u0113nu novads",
+          "name": "Nauk\u0161\u0113nu novads",
+          "region_id": "423"
+        },
+        {
+          "code": "Neretas novads",
+          "name": "Neretas novads",
+          "region_id": "424"
+        },
+        {
+          "code": "N\u012bcas novads",
+          "name": "N\u012bcas novads",
+          "region_id": "425"
+        },
+        {
+          "code": "LV-OG",
+          "name": "Ogres novads",
+          "region_id": "426"
+        },
+        {
+          "code": "Olaines novads",
+          "name": "Olaines novads",
+          "region_id": "427"
+        },
+        {
+          "code": "Ozolnieku novads",
+          "name": "Ozolnieku novads",
+          "region_id": "428"
+        },
+        {
+          "code": "P\u0101rgaujas novads",
+          "name": "P\u0101rgaujas novads",
+          "region_id": "432"
+        },
+        {
+          "code": "P\u0101vilostas novads",
+          "name": "P\u0101vilostas novads",
+          "region_id": "433"
+        },
+        {
+          "code": "P\u013cavi\u0146u novads",
+          "name": "P\u013cavi\u0146u novads",
+          "region_id": "434"
+        },
+        {
+          "code": "LV-PR",
+          "name": "Prei\u013cu novads",
+          "region_id": "429"
+        },
+        {
+          "code": "Priekules novads",
+          "name": "Priekules novads",
+          "region_id": "430"
+        },
+        {
+          "code": "Prieku\u013cu novads",
+          "name": "Prieku\u013cu novads",
+          "region_id": "431"
+        },
+        {
+          "code": "Raunas novads",
+          "name": "Raunas novads",
+          "region_id": "435"
+        },
+        {
+          "code": "LV-REZ",
+          "name": "R\u0113zekne",
+          "region_id": "361"
+        },
+        {
+          "code": "LV-RE",
+          "name": "R\u0113zeknes novads",
+          "region_id": "442"
+        },
+        {
+          "code": "Riebi\u0146u novads",
+          "name": "Riebi\u0146u novads",
+          "region_id": "436"
+        },
+        {
+          "code": "LV-RIX",
+          "name": "R\u012bga",
+          "region_id": "362"
+        },
+        {
+          "code": "LV-RI",
+          "name": "R\u012bgas novads",
+          "region_id": "363"
+        },
+        {
+          "code": "Rojas novads",
+          "name": "Rojas novads",
+          "region_id": "437"
+        },
+        {
+          "code": "Ropa\u017eu novads",
+          "name": "Ropa\u017eu novads",
+          "region_id": "438"
+        },
+        {
+          "code": "Rucavas novads",
+          "name": "Rucavas novads",
+          "region_id": "439"
+        },
+        {
+          "code": "Rug\u0101ju novads",
+          "name": "Rug\u0101ju novads",
+          "region_id": "440"
+        },
+        {
+          "code": "R\u016bjienas novads",
+          "name": "R\u016bjienas novads",
+          "region_id": "443"
+        },
+        {
+          "code": "Rund\u0101les novads",
+          "name": "Rund\u0101les novads",
+          "region_id": "441"
+        },
+        {
+          "code": "Salacgr\u012bvas novads",
+          "name": "Salacgr\u012bvas novads",
+          "region_id": "444"
+        },
+        {
+          "code": "Salas novads",
+          "name": "Salas novads",
+          "region_id": "445"
+        },
+        {
+          "code": "Salaspils novads",
+          "name": "Salaspils novads",
+          "region_id": "446"
+        },
+        {
+          "code": "LV-SA",
+          "name": "Saldus novads",
+          "region_id": "447"
+        },
+        {
+          "code": "Saulkrastu novads",
+          "name": "Saulkrastu novads",
+          "region_id": "448"
+        },
+        {
+          "code": "S\u0113jas novads",
+          "name": "S\u0113jas novads",
+          "region_id": "455"
+        },
+        {
+          "code": "Siguldas novads",
+          "name": "Siguldas novads",
+          "region_id": "449"
+        },
+        {
+          "code": "Skr\u012bveru novads",
+          "name": "Skr\u012bveru novads",
+          "region_id": "451"
+        },
+        {
+          "code": "Skrundas novads",
+          "name": "Skrundas novads",
+          "region_id": "450"
+        },
+        {
+          "code": "Smiltenes novads",
+          "name": "Smiltenes novads",
+          "region_id": "452"
+        },
+        {
+          "code": "Stopi\u0146u novads",
+          "name": "Stopi\u0146u novads",
+          "region_id": "453"
+        },
+        {
+          "code": "Stren\u010du novads",
+          "name": "Stren\u010du novads",
+          "region_id": "454"
+        },
+        {
+          "code": "LV-TA",
+          "name": "Talsu novads",
+          "region_id": "456"
+        },
+        {
+          "code": "T\u0113rvetes novads",
+          "name": "T\u0113rvetes novads",
+          "region_id": "458"
+        },
+        {
+          "code": "LV-TU",
+          "name": "Tukuma novads",
+          "region_id": "457"
+        },
+        {
+          "code": "Vai\u0146odes novads",
+          "name": "Vai\u0146odes novads",
+          "region_id": "459"
+        },
+        {
+          "code": "LV-VK",
+          "name": "Valkas novads",
+          "region_id": "460"
+        },
+        {
+          "code": "Valmiera",
+          "name": "Valmiera",
+          "region_id": "364"
+        },
+        {
+          "code": "LV-VM",
+          "name": "Valmieras novads",
+          "region_id": "461"
+        },
+        {
+          "code": "Varak\u013c\u0101nu novads",
+          "name": "Varak\u013c\u0101nu novads",
+          "region_id": "462"
+        },
+        {
+          "code": "V\u0101rkavas novads",
+          "name": "V\u0101rkavas novads",
+          "region_id": "469"
+        },
+        {
+          "code": "Vecpiebalgas novads",
+          "name": "Vecpiebalgas novads",
+          "region_id": "463"
+        },
+        {
+          "code": "Vecumnieku novads",
+          "name": "Vecumnieku novads",
+          "region_id": "464"
+        },
+        {
+          "code": "LV-VEN",
+          "name": "Ventspils",
+          "region_id": "365"
+        },
+        {
+          "code": "LV-VE",
+          "name": "Ventspils novads",
+          "region_id": "465"
+        },
+        {
+          "code": "Vies\u012btes novads",
+          "name": "Vies\u012btes novads",
+          "region_id": "466"
+        },
+        {
+          "code": "Vi\u013cakas novads",
+          "name": "Vi\u013cakas novads",
+          "region_id": "467"
+        },
+        {
+          "code": "Vi\u013c\u0101nu novads",
+          "name": "Vi\u013c\u0101nu novads",
+          "region_id": "468"
+        },
+        {
+          "code": "Zilupes novads",
+          "name": "Zilupes novads",
+          "region_id": "470"
+        }
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "country_id": "LB",
+      "isStateRequired": false
+    },
+    {
+      "name": "Lesotho",
+      "country_id": "LS",
+      "isStateRequired": false
+    },
+    {
+      "name": "Liberia",
+      "country_id": "LR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Libya",
+      "country_id": "LY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Liechtenstein",
+      "country_id": "LI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Lithuania",
+      "country_id": "LT",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "LT-AL",
+          "name": "Alytaus Apskritis",
+          "region_id": "475"
+        },
+        {
+          "code": "LT-KU",
+          "name": "Kauno Apskritis",
+          "region_id": "476"
+        },
+        {
+          "code": "LT-KL",
+          "name": "Klaip\u0117dos Apskritis",
+          "region_id": "477"
+        },
+        {
+          "code": "LT-MR",
+          "name": "Marijampol\u0117s Apskritis",
+          "region_id": "478"
+        },
+        {
+          "code": "LT-PN",
+          "name": "Panev\u0117\u017eio Apskritis",
+          "region_id": "479"
+        },
+        {
+          "code": "LT-SA",
+          "name": "\u0160iauli\u0173 Apskritis",
+          "region_id": "480"
+        },
+        {
+          "code": "LT-TA",
+          "name": "Taurag\u0117s Apskritis",
+          "region_id": "481"
+        },
+        {
+          "code": "LT-TE",
+          "name": "Tel\u0161i\u0173 Apskritis",
+          "region_id": "482"
+        },
+        {
+          "code": "LT-UT",
+          "name": "Utenos Apskritis",
+          "region_id": "483"
+        },
+        {
+          "code": "LT-VL",
+          "name": "Vilniaus Apskritis",
+          "region_id": "484"
+        }
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "country_id": "LU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Macau SAR China",
+      "country_id": "MO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Macedonia",
+      "country_id": "MK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Madagascar",
+      "country_id": "MG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Malawi",
+      "country_id": "MW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Malaysia",
+      "country_id": "MY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Maldives",
+      "country_id": "MV",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mali",
+      "country_id": "ML",
+      "isStateRequired": false
+    },
+    {
+      "name": "Malta",
+      "country_id": "MT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Marshall Islands",
+      "country_id": "MH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Martinique",
+      "country_id": "MQ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mauritania",
+      "country_id": "MR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mauritius",
+      "country_id": "MU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mayotte",
+      "country_id": "YT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mexico",
+      "country_id": "MX",
+      "isStateRequired": false
+    },
+    {
+      "name": "Micronesia",
+      "country_id": "FM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Moldova",
+      "country_id": "MD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Monaco",
+      "country_id": "MC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mongolia",
+      "country_id": "MN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Montenegro",
+      "country_id": "ME",
+      "isStateRequired": false
+    },
+    {
+      "name": "Montserrat",
+      "country_id": "MS",
+      "isStateRequired": false
+    },
+    {
+      "name": "Morocco",
+      "country_id": "MA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Mozambique",
+      "country_id": "MZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Myanmar (Burma)",
+      "country_id": "MM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Namibia",
+      "country_id": "NA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Nauru",
+      "country_id": "NR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Nepal",
+      "country_id": "NP",
+      "isStateRequired": false
+    },
+    {
+      "name": "Netherlands",
+      "country_id": "NL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Netherlands Antilles",
+      "country_id": "AN",
+      "isStateRequired": false
+    },
+    {
+      "name": "New Caledonia",
+      "country_id": "NC",
+      "isStateRequired": false
+    },
+    {
+      "name": "New Zealand",
+      "country_id": "NZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Nicaragua",
+      "country_id": "NI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Niger",
+      "country_id": "NE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Nigeria",
+      "country_id": "NG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Niue",
+      "country_id": "NU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Norfolk Island",
+      "country_id": "NF",
+      "isStateRequired": false
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "country_id": "MP",
+      "isStateRequired": false
+    },
+    {
+      "name": "North Korea",
+      "country_id": "KP",
+      "isStateRequired": false
+    },
+    {
+      "name": "Norway",
+      "country_id": "NO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Oman",
+      "country_id": "OM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Pakistan",
+      "country_id": "PK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Palau",
+      "country_id": "PW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Palestinian Territories",
+      "country_id": "PS",
+      "isStateRequired": false
+    },
+    {
+      "name": "Panama",
+      "country_id": "PA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Papua New Guinea",
+      "country_id": "PG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Paraguay",
+      "country_id": "PY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Peru",
+      "country_id": "PE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Philippines",
+      "country_id": "PH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Pitcairn Islands",
+      "country_id": "PN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Poland",
+      "country_id": "PL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Portugal",
+      "country_id": "PT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Qatar",
+      "country_id": "QA",
+      "isStateRequired": false
+    },
+    {
+      "name": "R\u00e9union",
+      "country_id": "RE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Romania",
+      "country_id": "RO",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "AB",
+          "name": "Alba",
+          "region_id": "278"
+        },
+        {
+          "code": "AR",
+          "name": "Arad",
+          "region_id": "279"
+        },
+        {
+          "code": "AG",
+          "name": "Arge\u015f",
+          "region_id": "280"
+        },
+        {
+          "code": "BC",
+          "name": "Bac\u0103u",
+          "region_id": "281"
+        },
+        {
+          "code": "BH",
+          "name": "Bihor",
+          "region_id": "282"
+        },
+        {
+          "code": "BN",
+          "name": "Bistri\u0163a-N\u0103s\u0103ud",
+          "region_id": "283"
+        },
+        {
+          "code": "BT",
+          "name": "Boto\u015fani",
+          "region_id": "284"
+        },
+        {
+          "code": "BR",
+          "name": "Br\u0103ila",
+          "region_id": "286"
+        },
+        {
+          "code": "BV",
+          "name": "Bra\u015fov",
+          "region_id": "285"
+        },
+        {
+          "code": "B",
+          "name": "Bucure\u015fti",
+          "region_id": "287"
+        },
+        {
+          "code": "BZ",
+          "name": "Buz\u0103u",
+          "region_id": "288"
+        },
+        {
+          "code": "CL",
+          "name": "C\u0103l\u0103ra\u015fi",
+          "region_id": "290"
+        },
+        {
+          "code": "CS",
+          "name": "Cara\u015f-Severin",
+          "region_id": "289"
+        },
+        {
+          "code": "CJ",
+          "name": "Cluj",
+          "region_id": "291"
+        },
+        {
+          "code": "CT",
+          "name": "Constan\u0163a",
+          "region_id": "292"
+        },
+        {
+          "code": "CV",
+          "name": "Covasna",
+          "region_id": "293"
+        },
+        {
+          "code": "DB",
+          "name": "D\u00e2mbovi\u0163a",
+          "region_id": "294"
+        },
+        {
+          "code": "DJ",
+          "name": "Dolj",
+          "region_id": "295"
+        },
+        {
+          "code": "GL",
+          "name": "Gala\u0163i",
+          "region_id": "296"
+        },
+        {
+          "code": "GR",
+          "name": "Giurgiu",
+          "region_id": "297"
+        },
+        {
+          "code": "GJ",
+          "name": "Gorj",
+          "region_id": "298"
+        },
+        {
+          "code": "HR",
+          "name": "Harghita",
+          "region_id": "299"
+        },
+        {
+          "code": "HD",
+          "name": "Hunedoara",
+          "region_id": "300"
+        },
+        {
+          "code": "IL",
+          "name": "Ialomi\u0163a",
+          "region_id": "301"
+        },
+        {
+          "code": "IS",
+          "name": "Ia\u015fi",
+          "region_id": "302"
+        },
+        {
+          "code": "IF",
+          "name": "Ilfov",
+          "region_id": "303"
+        },
+        {
+          "code": "MM",
+          "name": "Maramure\u015f",
+          "region_id": "304"
+        },
+        {
+          "code": "MH",
+          "name": "Mehedin\u0163i",
+          "region_id": "305"
+        },
+        {
+          "code": "MS",
+          "name": "Mure\u015f",
+          "region_id": "306"
+        },
+        {
+          "code": "NT",
+          "name": "Neam\u0163",
+          "region_id": "307"
+        },
+        {
+          "code": "OT",
+          "name": "Olt",
+          "region_id": "308"
+        },
+        {
+          "code": "PH",
+          "name": "Prahova",
+          "region_id": "309"
+        },
+        {
+          "code": "SJ",
+          "name": "S\u0103laj",
+          "region_id": "311"
+        },
+        {
+          "code": "SM",
+          "name": "Satu-Mare",
+          "region_id": "310"
+        },
+        {
+          "code": "SB",
+          "name": "Sibiu",
+          "region_id": "312"
+        },
+        {
+          "code": "SV",
+          "name": "Suceava",
+          "region_id": "313"
+        },
+        {
+          "code": "TR",
+          "name": "Teleorman",
+          "region_id": "314"
+        },
+        {
+          "code": "TM",
+          "name": "Timi\u015f",
+          "region_id": "315"
+        },
+        {
+          "code": "TL",
+          "name": "Tulcea",
+          "region_id": "316"
+        },
+        {
+          "code": "VL",
+          "name": "V\u00e2lcea",
+          "region_id": "318"
+        },
+        {
+          "code": "VS",
+          "name": "Vaslui",
+          "region_id": "317"
+        },
+        {
+          "code": "VN",
+          "name": "Vrancea",
+          "region_id": "319"
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "country_id": "RU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Rwanda",
+      "country_id": "RW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saint Barth\u00e9lemy",
+      "country_id": "BL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saint Helena",
+      "country_id": "SH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "country_id": "KN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saint Lucia",
+      "country_id": "LC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saint Martin",
+      "country_id": "MF",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "country_id": "PM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Samoa",
+      "country_id": "WS",
+      "isStateRequired": false
+    },
+    {
+      "name": "San Marino",
+      "country_id": "SM",
+      "isStateRequired": false
+    },
+    {
+      "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "country_id": "ST",
+      "isStateRequired": false
+    },
+    {
+      "name": "Saudi Arabia",
+      "country_id": "SA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Senegal",
+      "country_id": "SN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Serbia",
+      "country_id": "RS",
+      "isStateRequired": false
+    },
+    {
+      "name": "Seychelles",
+      "country_id": "SC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Sierra Leone",
+      "country_id": "SL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Singapore",
+      "country_id": "SG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Slovakia",
+      "country_id": "SK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Slovenia",
+      "country_id": "SI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Solomon Islands",
+      "country_id": "SB",
+      "isStateRequired": false
+    },
+    {
+      "name": "Somalia",
+      "country_id": "SO",
+      "isStateRequired": false
+    },
+    {
+      "name": "South Africa",
+      "country_id": "ZA",
+      "isStateRequired": false
+    },
+    {
+      "name": "South Georgia & South Sandwich Islands",
+      "country_id": "GS",
+      "isStateRequired": false
+    },
+    {
+      "name": "South Korea",
+      "country_id": "KR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Spain",
+      "country_id": "ES",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "A Coru\u0441a",
+          "name": "A Coru\u00f1a",
+          "region_id": "130"
+        },
+        {
+          "code": "Alava",
+          "name": "Alava",
+          "region_id": "131"
+        },
+        {
+          "code": "Albacete",
+          "name": "Albacete",
+          "region_id": "132"
+        },
+        {
+          "code": "Alicante",
+          "name": "Alicante",
+          "region_id": "133"
+        },
+        {
+          "code": "Almeria",
+          "name": "Almeria",
+          "region_id": "134"
+        },
+        {
+          "code": "Asturias",
+          "name": "Asturias",
+          "region_id": "135"
+        },
+        {
+          "code": "Avila",
+          "name": "Avila",
+          "region_id": "136"
+        },
+        {
+          "code": "Badajoz",
+          "name": "Badajoz",
+          "region_id": "137"
+        },
+        {
+          "code": "Baleares",
+          "name": "Baleares",
+          "region_id": "138"
+        },
+        {
+          "code": "Barcelona",
+          "name": "Barcelona",
+          "region_id": "139"
+        },
+        {
+          "code": "Burgos",
+          "name": "Burgos",
+          "region_id": "140"
+        },
+        {
+          "code": "Caceres",
+          "name": "Caceres",
+          "region_id": "141"
+        },
+        {
+          "code": "Cadiz",
+          "name": "Cadiz",
+          "region_id": "142"
+        },
+        {
+          "code": "Cantabria",
+          "name": "Cantabria",
+          "region_id": "143"
+        },
+        {
+          "code": "Castellon",
+          "name": "Castellon",
+          "region_id": "144"
+        },
+        {
+          "code": "Ceuta",
+          "name": "Ceuta",
+          "region_id": "145"
+        },
+        {
+          "code": "Ciudad Real",
+          "name": "Ciudad Real",
+          "region_id": "146"
+        },
+        {
+          "code": "Cordoba",
+          "name": "Cordoba",
+          "region_id": "147"
+        },
+        {
+          "code": "Cuenca",
+          "name": "Cuenca",
+          "region_id": "148"
+        },
+        {
+          "code": "Girona",
+          "name": "Girona",
+          "region_id": "149"
+        },
+        {
+          "code": "Granada",
+          "name": "Granada",
+          "region_id": "150"
+        },
+        {
+          "code": "Guadalajara",
+          "name": "Guadalajara",
+          "region_id": "151"
+        },
+        {
+          "code": "Guipuzcoa",
+          "name": "Guipuzcoa",
+          "region_id": "152"
+        },
+        {
+          "code": "Huelva",
+          "name": "Huelva",
+          "region_id": "153"
+        },
+        {
+          "code": "Huesca",
+          "name": "Huesca",
+          "region_id": "154"
+        },
+        {
+          "code": "Jaen",
+          "name": "Jaen",
+          "region_id": "155"
+        },
+        {
+          "code": "La Rioja",
+          "name": "La Rioja",
+          "region_id": "156"
+        },
+        {
+          "code": "Las Palmas",
+          "name": "Las Palmas",
+          "region_id": "157"
+        },
+        {
+          "code": "Leon",
+          "name": "Leon",
+          "region_id": "158"
+        },
+        {
+          "code": "Lleida",
+          "name": "Lleida",
+          "region_id": "159"
+        },
+        {
+          "code": "Lugo",
+          "name": "Lugo",
+          "region_id": "160"
+        },
+        {
+          "code": "Madrid",
+          "name": "Madrid",
+          "region_id": "161"
+        },
+        {
+          "code": "Malaga",
+          "name": "Malaga",
+          "region_id": "162"
+        },
+        {
+          "code": "Melilla",
+          "name": "Melilla",
+          "region_id": "163"
+        },
+        {
+          "code": "Murcia",
+          "name": "Murcia",
+          "region_id": "164"
+        },
+        {
+          "code": "Navarra",
+          "name": "Navarra",
+          "region_id": "165"
+        },
+        {
+          "code": "Ourense",
+          "name": "Ourense",
+          "region_id": "166"
+        },
+        {
+          "code": "Palencia",
+          "name": "Palencia",
+          "region_id": "167"
+        },
+        {
+          "code": "Pontevedra",
+          "name": "Pontevedra",
+          "region_id": "168"
+        },
+        {
+          "code": "Salamanca",
+          "name": "Salamanca",
+          "region_id": "169"
+        },
+        {
+          "code": "Santa Cruz de Tenerife",
+          "name": "Santa Cruz de Tenerife",
+          "region_id": "170"
+        },
+        {
+          "code": "Segovia",
+          "name": "Segovia",
+          "region_id": "171"
+        },
+        {
+          "code": "Sevilla",
+          "name": "Sevilla",
+          "region_id": "172"
+        },
+        {
+          "code": "Soria",
+          "name": "Soria",
+          "region_id": "173"
+        },
+        {
+          "code": "Tarragona",
+          "name": "Tarragona",
+          "region_id": "174"
+        },
+        {
+          "code": "Teruel",
+          "name": "Teruel",
+          "region_id": "175"
+        },
+        {
+          "code": "Toledo",
+          "name": "Toledo",
+          "region_id": "176"
+        },
+        {
+          "code": "Valencia",
+          "name": "Valencia",
+          "region_id": "177"
+        },
+        {
+          "code": "Valladolid",
+          "name": "Valladolid",
+          "region_id": "178"
+        },
+        {
+          "code": "Vizcaya",
+          "name": "Vizcaya",
+          "region_id": "179"
+        },
+        {
+          "code": "Zamora",
+          "name": "Zamora",
+          "region_id": "180"
+        },
+        {
+          "code": "Zaragoza",
+          "name": "Zaragoza",
+          "region_id": "181"
+        }
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "country_id": "LK",
+      "isStateRequired": false
+    },
+    {
+      "name": "St. Vincent & Grenadines",
+      "country_id": "VC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Sudan",
+      "country_id": "SD",
+      "isStateRequired": false
+    },
+    {
+      "name": "Suriname",
+      "country_id": "SR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "country_id": "SJ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Swaziland",
+      "country_id": "SZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Sweden",
+      "country_id": "SE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Switzerland",
+      "country_id": "CH",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "AG",
+          "name": "Aargau",
+          "region_id": "104"
+        },
+        {
+          "code": "AR",
+          "name": "Appenzell Ausserrhoden",
+          "region_id": "106"
+        },
+        {
+          "code": "AI",
+          "name": "Appenzell Innerrhoden",
+          "region_id": "105"
+        },
+        {
+          "code": "BL",
+          "name": "Basel-Landschaft",
+          "region_id": "108"
+        },
+        {
+          "code": "BS",
+          "name": "Basel-Stadt",
+          "region_id": "109"
+        },
+        {
+          "code": "BE",
+          "name": "Bern",
+          "region_id": "107"
+        },
+        {
+          "code": "FR",
+          "name": "Freiburg",
+          "region_id": "110"
+        },
+        {
+          "code": "GE",
+          "name": "Genf",
+          "region_id": "111"
+        },
+        {
+          "code": "GL",
+          "name": "Glarus",
+          "region_id": "112"
+        },
+        {
+          "code": "GR",
+          "name": "Graub\u00fcnden",
+          "region_id": "113"
+        },
+        {
+          "code": "JU",
+          "name": "Jura",
+          "region_id": "114"
+        },
+        {
+          "code": "LU",
+          "name": "Luzern",
+          "region_id": "115"
+        },
+        {
+          "code": "NE",
+          "name": "Neuenburg",
+          "region_id": "116"
+        },
+        {
+          "code": "NW",
+          "name": "Nidwalden",
+          "region_id": "117"
+        },
+        {
+          "code": "OW",
+          "name": "Obwalden",
+          "region_id": "118"
+        },
+        {
+          "code": "SH",
+          "name": "Schaffhausen",
+          "region_id": "120"
+        },
+        {
+          "code": "SZ",
+          "name": "Schwyz",
+          "region_id": "122"
+        },
+        {
+          "code": "SO",
+          "name": "Solothurn",
+          "region_id": "121"
+        },
+        {
+          "code": "SG",
+          "name": "St. Gallen",
+          "region_id": "119"
+        },
+        {
+          "code": "TI",
+          "name": "Tessin",
+          "region_id": "124"
+        },
+        {
+          "code": "TG",
+          "name": "Thurgau",
+          "region_id": "123"
+        },
+        {
+          "code": "UR",
+          "name": "Uri",
+          "region_id": "125"
+        },
+        {
+          "code": "VD",
+          "name": "Waadt",
+          "region_id": "126"
+        },
+        {
+          "code": "VS",
+          "name": "Wallis",
+          "region_id": "127"
+        },
+        {
+          "code": "ZG",
+          "name": "Zug",
+          "region_id": "128"
+        },
+        {
+          "code": "ZH",
+          "name": "Z\u00fcrich",
+          "region_id": "129"
+        }
+      ]
+    },
+    {
+      "name": "Syria",
+      "country_id": "SY",
+      "isStateRequired": false
+    },
+    {
+      "name": "Taiwan",
+      "country_id": "TW",
+      "isStateRequired": false
+    },
+    {
+      "name": "Tajikistan",
+      "country_id": "TJ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Tanzania",
+      "country_id": "TZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Thailand",
+      "country_id": "TH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Timor-Leste",
+      "country_id": "TL",
+      "isStateRequired": false
+    },
+    {
+      "name": "Togo",
+      "country_id": "TG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Tokelau",
+      "country_id": "TK",
+      "isStateRequired": false
+    },
+    {
+      "name": "Tonga",
+      "country_id": "TO",
+      "isStateRequired": false
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "country_id": "TT",
+      "isStateRequired": false
+    },
+    {
+      "name": "Tunisia",
+      "country_id": "TN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Turkey",
+      "country_id": "TR",
+      "isStateRequired": false
+    },
+    {
+      "name": "Turkmenistan",
+      "country_id": "TM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "country_id": "TC",
+      "isStateRequired": false
+    },
+    {
+      "name": "Tuvalu",
+      "country_id": "TV",
+      "isStateRequired": false
+    },
+    {
+      "name": "Uganda",
+      "country_id": "UG",
+      "isStateRequired": false
+    },
+    {
+      "name": "Ukraine",
+      "country_id": "UA",
+      "isStateRequired": false
+    },
+    {
+      "name": "United Arab Emirates",
+      "country_id": "AE",
+      "isStateRequired": false
+    },
+    {
+      "name": "United Kingdom",
+      "country_id": "GB",
+      "isStateRequired": false
+    },
+    {
+      "name": "United States",
+      "country_id": "US",
+      "isStateRequired": true,
+      "states": [
+        {
+          "code": "AL",
+          "name": "Alabama",
+          "region_id": "1"
+        },
+        {
+          "code": "AK",
+          "name": "Alaska",
+          "region_id": "2"
+        },
+        {
+          "code": "AS",
+          "name": "American Samoa",
+          "region_id": "3"
+        },
+        {
+          "code": "AZ",
+          "name": "Arizona",
+          "region_id": "4"
+        },
+        {
+          "code": "AR",
+          "name": "Arkansas",
+          "region_id": "5"
+        },
+        {
+          "code": "AE",
+          "name": "Armed Forces Africa",
+          "region_id": "6"
+        },
+        {
+          "code": "AA",
+          "name": "Armed Forces Americas",
+          "region_id": "7"
+        },
+        {
+          "code": "AE",
+          "name": "Armed Forces Canada",
+          "region_id": "8"
+        },
+        {
+          "code": "AE",
+          "name": "Armed Forces Europe",
+          "region_id": "9"
+        },
+        {
+          "code": "AE",
+          "name": "Armed Forces Middle East",
+          "region_id": "10"
+        },
+        {
+          "code": "AP",
+          "name": "Armed Forces Pacific",
+          "region_id": "11"
+        },
+        {
+          "code": "CA",
+          "name": "California",
+          "region_id": "12"
+        },
+        {
+          "code": "CO",
+          "name": "Colorado",
+          "region_id": "13"
+        },
+        {
+          "code": "CT",
+          "name": "Connecticut",
+          "region_id": "14"
+        },
+        {
+          "code": "DE",
+          "name": "Delaware",
+          "region_id": "15"
+        },
+        {
+          "code": "DC",
+          "name": "District of Columbia",
+          "region_id": "16"
+        },
+        {
+          "code": "FM",
+          "name": "Federated States Of Micronesia",
+          "region_id": "17"
+        },
+        {
+          "code": "FL",
+          "name": "Florida",
+          "region_id": "18"
+        },
+        {
+          "code": "GA",
+          "name": "Georgia",
+          "region_id": "19"
+        },
+        {
+          "code": "GU",
+          "name": "Guam",
+          "region_id": "20"
+        },
+        {
+          "code": "HI",
+          "name": "Hawaii",
+          "region_id": "21"
+        },
+        {
+          "code": "ID",
+          "name": "Idaho",
+          "region_id": "22"
+        },
+        {
+          "code": "IL",
+          "name": "Illinois",
+          "region_id": "23"
+        },
+        {
+          "code": "IN",
+          "name": "Indiana",
+          "region_id": "24"
+        },
+        {
+          "code": "IA",
+          "name": "Iowa",
+          "region_id": "25"
+        },
+        {
+          "code": "KS",
+          "name": "Kansas",
+          "region_id": "26"
+        },
+        {
+          "code": "KY",
+          "name": "Kentucky",
+          "region_id": "27"
+        },
+        {
+          "code": "LA",
+          "name": "Louisiana",
+          "region_id": "28"
+        },
+        {
+          "code": "ME",
+          "name": "Maine",
+          "region_id": "29"
+        },
+        {
+          "code": "MH",
+          "name": "Marshall Islands",
+          "region_id": "30"
+        },
+        {
+          "code": "MD",
+          "name": "Maryland",
+          "region_id": "31"
+        },
+        {
+          "code": "MA",
+          "name": "Massachusetts",
+          "region_id": "32"
+        },
+        {
+          "code": "MI",
+          "name": "Michigan",
+          "region_id": "33"
+        },
+        {
+          "code": "MN",
+          "name": "Minnesota",
+          "region_id": "34"
+        },
+        {
+          "code": "MS",
+          "name": "Mississippi",
+          "region_id": "35"
+        },
+        {
+          "code": "MO",
+          "name": "Missouri",
+          "region_id": "36"
+        },
+        {
+          "code": "MT",
+          "name": "Montana",
+          "region_id": "37"
+        },
+        {
+          "code": "NE",
+          "name": "Nebraska",
+          "region_id": "38"
+        },
+        {
+          "code": "NV",
+          "name": "Nevada",
+          "region_id": "39"
+        },
+        {
+          "code": "NH",
+          "name": "New Hampshire",
+          "region_id": "40"
+        },
+        {
+          "code": "NJ",
+          "name": "New Jersey",
+          "region_id": "41"
+        },
+        {
+          "code": "NM",
+          "name": "New Mexico",
+          "region_id": "42"
+        },
+        {
+          "code": "NY",
+          "name": "New York",
+          "region_id": "43"
+        },
+        {
+          "code": "NC",
+          "name": "North Carolina",
+          "region_id": "44"
+        },
+        {
+          "code": "ND",
+          "name": "North Dakota",
+          "region_id": "45"
+        },
+        {
+          "code": "MP",
+          "name": "Northern Mariana Islands",
+          "region_id": "46"
+        },
+        {
+          "code": "OH",
+          "name": "Ohio",
+          "region_id": "47"
+        },
+        {
+          "code": "OK",
+          "name": "Oklahoma",
+          "region_id": "48"
+        },
+        {
+          "code": "OR",
+          "name": "Oregon",
+          "region_id": "49"
+        },
+        {
+          "code": "PW",
+          "name": "Palau",
+          "region_id": "50"
+        },
+        {
+          "code": "PA",
+          "name": "Pennsylvania",
+          "region_id": "51"
+        },
+        {
+          "code": "PR",
+          "name": "Puerto Rico",
+          "region_id": "52"
+        },
+        {
+          "code": "RI",
+          "name": "Rhode Island",
+          "region_id": "53"
+        },
+        {
+          "code": "SC",
+          "name": "South Carolina",
+          "region_id": "54"
+        },
+        {
+          "code": "SD",
+          "name": "South Dakota",
+          "region_id": "55"
+        },
+        {
+          "code": "TN",
+          "name": "Tennessee",
+          "region_id": "56"
+        },
+        {
+          "code": "TX",
+          "name": "Texas",
+          "region_id": "57"
+        },
+        {
+          "code": "UT",
+          "name": "Utah",
+          "region_id": "58"
+        },
+        {
+          "code": "VT",
+          "name": "Vermont",
+          "region_id": "59"
+        },
+        {
+          "code": "VI",
+          "name": "Virgin Islands",
+          "region_id": "60"
+        },
+        {
+          "code": "VA",
+          "name": "Virginia",
+          "region_id": "61"
+        },
+        {
+          "code": "WA",
+          "name": "Washington",
+          "region_id": "62"
+        },
+        {
+          "code": "WV",
+          "name": "West Virginia",
+          "region_id": "63"
+        },
+        {
+          "code": "WI",
+          "name": "Wisconsin",
+          "region_id": "64"
+        },
+        {
+          "code": "WY",
+          "name": "Wyoming",
+          "region_id": "65"
+        }
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "country_id": "UY",
+      "isStateRequired": false
+    },
+    {
+      "name": "U.S. Outlying Islands",
+      "country_id": "UM",
+      "isStateRequired": false
+    },
+    {
+      "name": "U.S. Virgin Islands",
+      "country_id": "VI",
+      "isStateRequired": false
+    },
+    {
+      "name": "Uzbekistan",
+      "country_id": "UZ",
+      "isStateRequired": false
+    },
+    {
+      "name": "Vanuatu",
+      "country_id": "VU",
+      "isStateRequired": false
+    },
+    {
+      "name": "Vatican City",
+      "country_id": "VA",
+      "isStateRequired": false
+    },
+    {
+      "name": "Venezuela",
+      "country_id": "VE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Vietnam",
+      "country_id": "VN",
+      "isStateRequired": false
+    },
+    {
+      "name": "Wallis and Futuna",
+      "country_id": "WF",
+      "isStateRequired": false
+    },
+    {
+      "name": "Western Sahara",
+      "country_id": "EH",
+      "isStateRequired": false
+    },
+    {
+      "name": "Yemen",
+      "country_id": "YE",
+      "isStateRequired": false
+    },
+    {
+      "name": "Zambia",
+      "country_id": "ZM",
+      "isStateRequired": false
+    },
+    {
+      "name": "Zimbabwe",
+      "country_id": "ZW",
+      "isStateRequired": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "545636166281",
+    "firebase_url": "https://outfitter-e-comm-flutter-app.firebaseio.com",
+    "project_id": "outfitter-e-comm-flutter-app",
+    "storage_bucket": "outfitter-e-comm-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545636166281:android:342ac1d7be142087c43458",
+        "android_client_info": {
+          "package_name": "com.alchemative.outfitters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545636166281-upgvggl0jv6gotqppknctf5p9rftclse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alchemative.outfitters",
+            "certificate_hash": "cd809a008db52b04916db5b3f8c92debf8b51388"
+          }
+        },
+        {
+          "client_id": "545636166281-eb3gffk7di18r2m6sq2f0rjqe2nl04kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtkEXbysC3lDyMhiJPfUgfFKuEKejy844"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545636166281-eb3gffk7di18r2m6sq2f0rjqe2nl04kr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545636166281-namtjq7iuogkshfpclvgvlo18rvkubt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alchemative.outfitters"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545636166281:android:62368b6d5c2020c4c43458",
+        "android_client_info": {
+          "package_name": "com.alchemative.outfitters.pk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545636166281-kkc75uuanh49coldj84m46a5uiuhqveg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alchemative.outfitters.pk",
+            "certificate_hash": "de1903cd1a20fb0838c903bfcfad415362f9eb0d"
+          }
+        },
+        {
+          "client_id": "545636166281-eb3gffk7di18r2m6sq2f0rjqe2nl04kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtkEXbysC3lDyMhiJPfUgfFKuEKejy844"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545636166281-eb3gffk7di18r2m6sq2f0rjqe2nl04kr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "545636166281-namtjq7iuogkshfpclvgvlo18rvkubt2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alchemative.outfitters"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

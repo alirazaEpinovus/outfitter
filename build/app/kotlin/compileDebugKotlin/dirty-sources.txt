@@ -1,0 +1,4 @@
+C:\Users\Abc\Documents\epinovus\outfitters_flutter_app\android\app\src\main\kotlin\com\alchemative\outfitters\FlutterLocalNotificationPluginRegistrant.kt
+C:\Users\Abc\Documents\epinovus\outfitters_flutter_app\android\app\src\main\kotlin\com\alchemative\outfitters\FirebaseCloudMessagingPluginRegistrant.kt
+C:\Users\Abc\Documents\epinovus\outfitters_flutter_app\android\app\src\main\kotlin\com\alchemative\outfitters\Application.kt
+C:\Users\Abc\Documents\epinovus\outfitters_flutter_app\android\app\src\main\kotlin\com\alchemative\outfitters\MainActivity.kt
