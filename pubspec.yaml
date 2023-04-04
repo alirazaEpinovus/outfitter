@@ -50,7 +50,8 @@ dependencies:
   firebase_crashlytics:
   # flutter_local_notifications: ^1.4.4+1
   photo_view:
-  cached_video_player:
+  # cached_video_player:
+  video_player: ^2.6.1
   auto_size_text:
   smooth_page_indicator:
   webview_flutter:
