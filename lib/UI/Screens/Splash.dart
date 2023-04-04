@@ -1,8 +1,12 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:outfitters/UI/Screens/BottamNavigation.dart';
 import 'package:outfitters/Utils/Helper.dart';
+import 'package:package_info/package_info.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'Language/all_translations.dart';
+import 'dart:io' show Platform;
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -17,6 +21,28 @@ class _SplashScreenState extends State<SplashScreen> {
     Helper.savePreferenceBoolean('remember', true);
     super.initState();
   }
+
+  // check1stTime() async {
+  //   PackageInfo packageInfo = await PackageInfo.fromPlatform();
+
+  //   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+  //   if (sharedPreferences.getBool("is1stTime") == null) {
+  //     PackageInfo packageInfo = await PackageInfo.fromPlatform();
+  //     String versionCode = packageInfo.buildNumber;
+  //     print("1sttime");
+  //     sharedPreferences.setBool("is1stTime", true);
+  //     FirebaseFirestore.instance
+  //         .collection("build_number")
+  //         .doc("build")
+  //         .update(Platform.isIOS
+  //             ? {
+  //                 'ios': int.parse(versionCode),
+  //               }
+  //             : {
+  //                 'build_number': int.parse(versionCode),
+  //               });
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
