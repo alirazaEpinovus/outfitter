@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
@@ -120,54 +121,69 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   }
 
   void versionCheck() async {
-    await FirebaseFirestore.instance
+    FirebaseFirestore.instance
         .collection("build_number")
         .doc("build")
         .snapshots()
-        .listen((value) {
+        .listen((value) async {
+      debugPrint('value: ${value}');
       lastVer =
           Platform.isIOS ? int.parse(value['ios']) : value['build_number'];
 
       if (mounted) {
         setState(() {});
       }
+
+      PackageInfo packageInfo = await PackageInfo.fromPlatform();
+      // int versionName = int.parse(packageInfo.version.toString());
+      versionCode = packageInfo.buildNumber;
+      log(lastVer.toString() +
+          "------------------vvvvvvvvvvvvvv-------" +
+          versionCode.toString());
+      if (lastVer < int.parse(versionCode)) {
+        _launchURL();
+        // FirebaseFirestore.instance
+        //     .collection("build_number")
+        //     .doc("build")
+        //     .update(Platform.isIOS
+        //         ? {
+        //             'ios': int.parse(versionCode),
+        //           }
+        //         : {
+        //             'build_number': int.parse(versionCode),
+        //           });
+        // showDialog(
+        //     barrierDismissible: false,
+        //     context: context,
+        //     builder: (_) => new AlertDialog(
+        //           title: Text(
+        //             "New Update Available",
+        //             style: TextStyle(
+        //               fontFamily: 'Lato',
+        //             ),
+        //           ),
+        //           content: Text(
+        //             "There is a newer version of app available please update it now.",
+        //             style: TextStyle(
+        //               fontFamily: 'Lato',
+        //             ),
+        //           ),
+        //           actions: <Widget>[
+        //             TextButton(
+        //               child: Text(
+        //                 "Update Now",
+        //                 style: TextStyle(
+        //                   fontFamily: 'Lato',
+        //                 ),
+        //               ),
+        //               onPressed: () {
+        //                 _launchURL();
+        //               },
+        //             ),
+        //           ],
+        //         ));
+      }
     });
-    PackageInfo packageInfo = await PackageInfo.fromPlatform();
-    // int versionName = int.parse(packageInfo.version.toString());
-    versionCode = packageInfo.buildNumber;
-    print(lastVer.toString() + "---------------" + versionCode.toString());
-    if (lastVer > int.parse(versionCode)) {
-      showDialog(
-          barrierDismissible: false,
-          context: context,
-          builder: (_) => new AlertDialog(
-                title: Text(
-                  "New Update Available",
-                  style: TextStyle(
-                    fontFamily: 'Lato',
-                  ),
-                ),
-                content: Text(
-                  "There is a newer version of app available please update it now.",
-                  style: TextStyle(
-                    fontFamily: 'Lato',
-                  ),
-                ),
-                actions: <Widget>[
-                  TextButton(
-                    child: Text(
-                      "Update Now",
-                      style: TextStyle(
-                        fontFamily: 'Lato',
-                      ),
-                    ),
-                    onPressed: () {
-                      _launchURL();
-                    },
-                  ),
-                ],
-              ));
-    }
   }
 
   // check1stTime() async {
