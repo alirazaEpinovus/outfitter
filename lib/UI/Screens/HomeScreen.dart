@@ -382,7 +382,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                             }
                                           },
                                           child: sliders[index]['data'].isVideo
-                                              ? VideoPlayer(
+                                              ? VideoPlayerScreen(
                                                   videoUrl: sliders[index]
                                                           ['data']
                                                       .bannerVideo,

@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:math';
 import 'package:http/http.dart' as http;
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +29,7 @@ import 'package:outfitters/Utils/Helper.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 import 'package:share/share.dart';
+import 'dart:developer' as dev;
 
 class ProductDetails extends StatefulWidget {
   final Productnode productModel;
@@ -82,7 +84,10 @@ class _ProductDetailsState extends State<ProductDetails>
 
   @override
   void initState() {
+    dev.log("Tags:-------------------------------");
+
     productModel.tags.forEach((item) {
+      dev.log(item.toString());
       if (item.contains(text)) {
         setState(() {
           simpleTag = item;
@@ -90,6 +95,7 @@ class _ProductDetailsState extends State<ProductDetails>
         });
       }
     });
+    dev.log("tagCheck :-------------------------------: $tagCheck");
     streamController.add(variantnode);
     variantnode.clear();
     streamController.sink.add(variantnode);
@@ -1296,7 +1302,7 @@ class _ProductDetailsState extends State<ProductDetails>
       'sku': variantnode.sku,
       'available': variantnode.available.toString()
     };
-    database.insert(row,context).then((val) {
+    database.insert(row, context).then((val) {
       // Toast.showToast(context, 'Added to Cart Successfully!');
       Provider.of<CartNotifier>(context, listen: false).getcart();
     });
