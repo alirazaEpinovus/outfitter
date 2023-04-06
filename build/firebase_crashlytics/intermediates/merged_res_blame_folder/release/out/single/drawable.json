@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8afafff3506b80dc19773ce93d291bf6\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8afafff3506b80dc19773ce93d291bf6\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8afafff3506b80dc19773ce93d291bf6\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8afafff3506b80dc19773ce93d291bf6\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8edbb99f0d62aa6453ddf6795d2672be\\transformed\\appcompat-1.2.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\550e2def0cd7377cc6ed1d28df8bc00f\\transformed\\appcompat-1.5.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

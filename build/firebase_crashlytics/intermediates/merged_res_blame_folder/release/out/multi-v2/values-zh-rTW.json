@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\firebase_crashlytics\\intermediates\\merged_res\\release\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\7f705d3f5d137dd90f6c779f294b0e6f\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "98",
+                        "endOffsets": "297"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "102",
+                        "endOffsets": "153"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8afafff3506b80dc19773ce93d291bf6\\transformed\\core-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "158",
+                        "endColumns": "100",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\firebase_crashlytics\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\7f705d3f5d137dd90f6c779f294b0e6f\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "98",
+                        "endOffsets": "297"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "102",
+                        "endOffsets": "153"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8afafff3506b80dc19773ce93d291bf6\\transformed\\core-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "158",
+                        "endColumns": "100",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        }
+    ]
+}

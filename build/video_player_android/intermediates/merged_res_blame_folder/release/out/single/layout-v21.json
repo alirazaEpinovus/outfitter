@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\video_player_android\\intermediates\\merged_res\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\33095ff0f300117b7cc06502bf016589\\transformed\\core-1.7.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\video_player_android\\intermediates\\merged_res\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\33095ff0f300117b7cc06502bf016589\\transformed\\core-1.7.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\video_player_android\\intermediates\\merged_res\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\33095ff0f300117b7cc06502bf016589\\transformed\\core-1.7.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-01\\Documents\\Flutter Projects\\me\\epinovus\\outfitter\\build\\video_player_android\\intermediates\\merged_res\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\33095ff0f300117b7cc06502bf016589\\transformed\\core-1.7.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

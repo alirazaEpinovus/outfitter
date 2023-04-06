@@ -23,16 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\8edbb99f0d62aa6453ddf6795d2672be\\transformed\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
                     "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\b86c03ba54d68cebbc0afffd45c32cfd\\transformed\\jetified-firebase-inappmessaging-display-20.3.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -47,6 +37,16 @@
                         "startOffsets": "264,340,412,485",
                         "endColumns": "75,71,72,71",
                         "endOffsets": "335,407,480,552"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC-01\\.gradle\\caches\\transforms-3\\550e2def0cd7377cc6ed1d28df8bc00f\\transformed\\appcompat-1.5.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 }
             ]
