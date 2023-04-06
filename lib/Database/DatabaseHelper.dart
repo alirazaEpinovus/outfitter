@@ -147,19 +147,21 @@ class DatabaseHelper {
     Database db = await instance.database;
 
     try {
-      // var list = await db.query(orderTable,
-      //     where: '$varientID = ?', whereArgs: [row['varient_id']]);
-      // print("============${list.first[quantity]}=======");
-      // list.first[quantity] < 5
-      //     ? Toast.showToast(context, 'Added to Cart Successfully!')
-      //     : Toast.showToast(context,"You can not add more than 5 items");
-      //
-      // return list.length == 0
-      //     ? await db.insert(orderTable, row)
-      //     : list.first[quantity] < 5
-      //         ? await update(
-      //             list.first[orderID], list.first[quantity] + row['quantity'])
-      //         : await update(list.first[orderID], list.first[quantity]);
+      // await db.insert(orderTable, row);
+      var list = await db.query(orderTable,
+          where: '$varientID = ?', whereArgs: [row['varient_id']]);
+      print("============${list.first[quantity]}=======");
+      int c = list.first[quantity];
+      c < 5
+          ? Toast.showToast(context, 'Added to Cart Successfully!')
+          : Toast.showToast(context, "You can not add more than 5 items");
+
+      return list.length == 0
+          ? await db.insert(orderTable, row)
+          : c < 5
+              ? await update(
+                  list.first[orderID], c + int.parse(row['quantity']))
+              : await update(list.first[orderID], list.first[quantity]);
     } catch (SQLException) {
       return await db.insert(orderTable, row);
     }
