@@ -30,6 +30,7 @@ class CartNotifier with ChangeNotifier {
 
   getcart() async {
     var list = await database.queryAllRows();
+    debugPrint('list: ${list}');
     if (list.isNotEmpty) {
       cartList = list;
     } else {

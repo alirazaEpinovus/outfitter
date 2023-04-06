@@ -1305,6 +1305,8 @@ class _ProductDetailsState extends State<ProductDetails>
     database.insert(row, context).then((val) {
       // Toast.showToast(context, 'Added to Cart Successfully!');
       Provider.of<CartNotifier>(context, listen: false).getcart();
+    }).onError((error, stackTrace) {
+      debugPrint('error: ${error}');
     });
   }
 

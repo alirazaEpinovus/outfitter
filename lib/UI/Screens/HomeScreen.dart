@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       log(lastVer.toString() +
           "------------------vvvvvvvvvvvvvv-------" +
           versionCode.toString());
-      if (lastVer < int.parse(versionCode)) {
+      if (lastVer > int.parse(versionCode)) {
         _launchURL();
         // FirebaseFirestore.instance
         //     .collection("build_number")

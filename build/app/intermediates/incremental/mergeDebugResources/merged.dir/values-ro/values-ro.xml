@@ -56,7 +56,7 @@
     <string name="common_signin_button_text_long">Conectați-vă cu Google</string>
     <string name="error_icon_content_description">Eroare</string>
     <string name="exo_download_completed">Descărcarea a fost finalizată</string>
-    <string name="exo_download_description">Descărcați</string>
+    <string name="exo_download_description">Descarcă</string>
     <string name="exo_download_downloading">Se descarcă</string>
     <string name="exo_download_failed">Descărcarea nu a reușit</string>
     <string name="exo_download_notification_channel_name">Descărcări</string>

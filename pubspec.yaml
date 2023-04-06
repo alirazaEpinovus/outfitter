@@ -73,7 +73,7 @@ dependencies:
   graphql_flutter:
   cached_network_image:
   uuid:
-  sqflite:
+  sqflite: ^2.2.6
   cloud_firestore:
   firebase_analytics:
 
