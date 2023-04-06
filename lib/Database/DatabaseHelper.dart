@@ -151,7 +151,7 @@ class DatabaseHelper {
       var list = await db.query(orderTable,
           where: '$varientID = ?', whereArgs: [row['varient_id']]);
       print("============${list.first[quantity]}=======");
-      int c = list.first[quantity];
+      int c = int.parse(list.first[quantity].toString());
       c < 5
           ? Toast.showToast(context, 'Added to Cart Successfully!')
           : Toast.showToast(context, "You can not add more than 5 items");
@@ -159,8 +159,8 @@ class DatabaseHelper {
       return list.length == 0
           ? await db.insert(orderTable, row)
           : c < 5
-              ? await update(
-                  list.first[orderID], c + int.parse(row['quantity']))
+              ? await update(list.first[orderID],
+                  c + int.parse(row['quantity'].toString()))
               : await update(list.first[orderID], list.first[quantity]);
     } catch (SQLException) {
       return await db.insert(orderTable, row);
