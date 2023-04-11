@@ -1,9 +1,10 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-
+import 'dart:developer' as dev;
 import 'package:intl/intl.dart';
 import 'package:outfitters/UI/GraphQL/Mutation/mutationQueries.dart';
 import 'package:outfitters/UI/Notifiers/ConnectionNotifier.dart';
@@ -78,6 +79,7 @@ class _SignInState extends State<SignIn> {
           } else {}
         },
         onError: (OperationException error) {
+          dev.log("oerror_________________________________ $error");
           showDialog<AlertDialog>(
             context: context,
             builder: (BuildContext context) {
@@ -102,6 +104,10 @@ class _SignInState extends State<SignIn> {
           );
         },
         onCompleted: (dynamic resultData) async {
+          dev.log(
+              "onCompleted___________________________________________________");
+          debugPrint('resultData: ${resultData}');
+
           if (resultData['customerAccessTokenCreate']['customerAccessToken'] !=
               null) {
             print('date is ' +
@@ -125,6 +131,7 @@ class _SignInState extends State<SignIn> {
 
             Toast.showToast(context, "You are successfully Logged in");
             LoadingDialouge().showLoadingDialog(context, 'Processing');
+            setState(() {});
 
             // Future.delayed(Duration(seconds: 7)).whenComplete(() {
             // Navigator.of(context, rootNavigator: true).pop();
@@ -143,13 +150,16 @@ class _SignInState extends State<SignIn> {
             // Navigator.of(context).pushReplacement(MaterialPageRoute(
             // builder: (context) => new BottamNavigation()));
           } else {
+            dev.log("error___________________________________________________");
             // Navigator.pop(context);
             Toast.showToast(
-                context,
-                resultData
-                    .data['customerAccessTokenCreate']['customerUserErrors']
-                    .first['message']
-                    .toString());
+              context,
+              "Unidentified customer",
+              // resultData
+              //     .data['customerAccessTokenCreate']['customerUserErrors']
+              //     .first['message']
+              //     .toString()
+            );
           }
         },
       ),
