@@ -21,6 +21,7 @@ import 'package:outfitters/UI/Screens/ContactUs.dart';
 import 'package:outfitters/UI/Screens/NewsLetter.dart';
 import 'package:outfitters/UI/Screens/AboutOutfitters.dart';
 import 'package:outfitters/UI/Screens/SearchProduct.dart';
+import 'package:outfitters/UI/Screens/signUp_new.dart';
 import 'package:outfitters/UI/Widgets/CartIconWidget.dart';
 import 'package:outfitters/UI/Widgets/ToastClass.dart';
 import 'package:outfitters/UI/Widgets/VideoPlayer.dart';
@@ -247,6 +248,79 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     setState(() {});
   }
 
+  void subscribeDialog() async {
+    showDialog(
+        context: context,
+        builder: (_) => new AlertDialog(
+              title: Text("SIGN UP TO GET 10% DISCOUNT!"),
+              content: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Container(
+                    child: Container(
+                        padding: EdgeInsets.only(left: 10),
+                        width: MediaQuery.of(context).size.width,
+                        child: TextFormField(
+                            textInputAction: TextInputAction.next,
+                            validator: (value) {
+                              Pattern pattern =
+                                  r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
+                              RegExp regex = new RegExp(pattern);
+                              if (value.trim().isEmpty ||
+                                  !regex.hasMatch(value)) {
+                                return labels["email_valid"];
+                              }
+                              return null;
+                            },
+                            cursorColor: Colors.black,
+                            keyboardType: TextInputType.emailAddress,
+                            decoration: new InputDecoration(
+                              enabledBorder: UnderlineInputBorder(
+                                borderSide: BorderSide(color: Colors.grey),
+                              ),
+                              focusedBorder: UnderlineInputBorder(
+                                borderSide: BorderSide(color: Colors.grey),
+                              ),
+                              hintText: labels["email"],
+                              border: InputBorder.none,
+                              hintStyle: TextStyle(
+                                color: Color(0xFFA2A2A2),
+                                fontSize: 13,
+                                fontStyle: FontStyle.normal,
+                              ),
+                              contentPadding: const EdgeInsets.symmetric(
+                                  vertical: 2.0, horizontal: 10.0),
+                            ))),
+                  ),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context, rootNavigator: true).pop();
+                      // Navigator.of(context).push(
+                      //     MaterialPageRoute(builder: (context) => SignupNew()));
+                      Navigator.of(context, rootNavigator: false).push(
+                          MaterialPageRoute(builder: (context) => SignupNew()));
+                    },
+                    child: Container(
+                      width: MediaQuery.of(context).size.width,
+                      color: Colors.black,
+                      padding: EdgeInsets.symmetric(vertical: 15),
+                      child: Text(
+                        "SUBSCRIBE",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ));
+  }
+
   @override
   Widget build(BuildContext context) {
     connectionStatus = Provider.of<ConnectivityStatus>(context);
@@ -260,6 +334,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   centerTitle: true,
                   title: InkWell(
                     onTap: () {
+                      subscribeDialog();
                       // Navigator.push(
                       //     context,
                       //     MaterialPageRoute(
